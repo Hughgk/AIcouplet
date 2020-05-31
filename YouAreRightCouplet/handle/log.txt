@@ -1,0 +1,2191 @@
+nohup: ignoring input
+/root/anaconda3/envs/tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/root/anaconda3/envs/tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/root/anaconda3/envs/tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/root/anaconda3/envs/tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/root/anaconda3/envs/tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/root/anaconda3/envs/tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+WARNING:tensorflow:From /root/anaconda3/envs/tf/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From /root/couplet-master/seq2seq.py:12: BasicLSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+WARNING:tensorflow:From /root/couplet-master/seq2seq.py:12: MultiRNNCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.StackedRNNCells, and will be replaced by that in Tensorflow 2.0.
+WARNING:tensorflow:From /root/couplet-master/seq2seq.py:26: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+WARNING:tensorflow:From /root/anaconda3/envs/tf/lib/python3.7/site-packages/tensorflow/python/ops/rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+WARNING:tensorflow:From /root/anaconda3/envs/tf/lib/python3.7/site-packages/tensorflow/python/ops/rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+WARNING:tensorflow:From /root/anaconda3/envs/tf/lib/python3.7/site-packages/tensorflow/python/ops/rnn_cell_impl.py:1259: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From /root/couplet-master/seq2seq.py:164: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2020-05-27 08:39:18.109161: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+2020-05-27 08:39:18.120683: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2593910000 Hz
+2020-05-27 08:39:18.121409: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x55d4ccc38ef0 executing computations on platform Host. Devices:
+2020-05-27 08:39:18.121449: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+OMP: Info #154: KMP_AFFINITY: Initial OS proc set respected: 0-3
+OMP: Info #214: KMP_AFFINITY: decoding x2APIC ids.
+OMP: Info #156: KMP_AFFINITY: 4 available OS procs
+OMP: Info #157: KMP_AFFINITY: Uniform topology
+OMP: Info #285: KMP_AFFINITY: topology layer "LL cache" is equivalent to "socket".
+OMP: Info #285: KMP_AFFINITY: topology layer "L3 cache" is equivalent to "socket".
+OMP: Info #285: KMP_AFFINITY: topology layer "L2 cache" is equivalent to "core".
+OMP: Info #285: KMP_AFFINITY: topology layer "L1 cache" is equivalent to "core".
+OMP: Info #285: KMP_AFFINITY: topology layer "thread" is equivalent to "core".
+OMP: Info #191: KMP_AFFINITY: 1 socket x 4 cores/socket x 1 thread/core (4 total cores)
+OMP: Info #216: KMP_AFFINITY: OS proc to physical thread map:
+OMP: Info #171: KMP_AFFINITY: OS proc 0 maps to socket 0 core 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 1 maps to socket 0 core 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 2 maps to socket 0 core 2 
+OMP: Info #171: KMP_AFFINITY: OS proc 3 maps to socket 0 core 3 
+OMP: Info #252: KMP_AFFINITY: pid 4887 tid 4887 thread 0 bound to OS proc set 0
+2020-05-27 08:39:18.125512: I tensorflow/core/common_runtime/process_util.cc:71] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+OMP: Info #252: KMP_AFFINITY: pid 4887 tid 4916 thread 1 bound to OS proc set 1
+OMP: Info #252: KMP_AFFINITY: pid 4887 tid 4941 thread 2 bound to OS proc set 2
+OMP: Info #252: KMP_AFFINITY: pid 4887 tid 4943 thread 4 bound to OS proc set 0
+OMP: Info #252: KMP_AFFINITY: pid 4887 tid 4942 thread 3 bound to OS proc set 3
+OMP: Info #252: KMP_AFFINITY: pid 4887 tid 4917 thread 5 bound to OS proc set 1
+OMP: Info #252: KMP_AFFINITY: pid 4887 tid 4944 thread 6 bound to OS proc set 2
+OMP: Info #252: KMP_AFFINITY: pid 4887 tid 4945 thread 7 bound to OS proc set 3
+OMP: Info #252: KMP_AFFINITY: pid 4887 tid 4946 thread 8 bound to OS proc set 0
+Saving model. Step: 0, loss: 1.212870
+******************************
+src: 佛 脚 清 泉 ， 飘 飘 飘 飘 ， 飘 下 两 条 玉 带
+output: 齾 齾 齾 齾 齾 齾 齾 隡 隡 隡 隡 隡 隡 隡 牕 牕 牕 牕 绔 绔 绔 绔 隡 隡 牕 睸
+target: 源 头 活 水 ， 冒 冒 冒 冒 ， 冒 出 一 串 珍 珠
+WARNING:tensorflow:From /root/anaconda3/envs/tf/lib/python3.7/site-packages/tensorflow/python/training/saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+====================
+src:东 风 化 雨 ， 无 声 甘 露 润 桃 李
+output: ， ， ， ， ， ， ， ， ， ， ，
+target: 梦 想 凌 云 ， 有 志 园 丁 育 栋 梁
+====================
+src:梅 作 清 词 无 俗 句
+output: ， ， ， ， ， ， ， ，
+target: 菊 呈 傲 骨 有 冰 心
+====================
+src:无 畏 无 私 真 猛 士
+output: ， ， ， ， ， ， ，
+target: 有 出 有 对 叫 联 言
+====================
+src:承 前 龙 气 势
+output: ， ， ， ， ，
+target: 启 后 马 精 神
+====================
+src:鱼 戏 柳 塘 生 细 浪
+output: ， ， ， ， ， ， ，
+target: 马 行 花 径 起 香 尘
+====================
+src:书 山 香 韵 墨
+output: ， ， ， ， ， ， ， ，
+target: 诗 海 苦 读 耕
+====================
+src:暮 雨 花 残 惜 缘 泪
+output: ， ， ， ， ， ， ，
+target: 晨 箫 木 楫 离 散 诗
+====================
+src:庖 丁 何 必 惊 牛 鬼
+output: ， ， ， ， ， ， ， ，
+target: 太 乙 真 人 是 神 仙
+====================
+src:走 完 三 界 写 神 曲
+output: ， ， ， ， ， ， ， ，
+target: 看 破 红 尘 入 佛 门
+====================
+src:花 蕊 草 芯 迷 彩 蝶
+output: ， ， ， ， ， ， ，
+target: 兰 舟 木 艇 接 佳 人
+====================
+src:联 墨 飘 香 ， 诵 经 朗 朗 积 学 问
+output: ， ， ， ， ， ， ， ， ， ， ， ，
+target: 砂 红 染 布 ， 织 架 声 声 编 美 衣
+====================
+src:仍 致 瑞 应
+output: ， ， ， ， ， ，
+target: 扶 助 太 和
+Evaluate model. Step: 0, score: 0.000000, loss: 1.212870
+Saving model. Step: 100, loss: 72.593273
+******************************
+src: 请 他 落 座 停 停 脚
+output: 人 春 ， ， ，
+target: 迎 我 登 巅 采 采 风
+Saving model. Step: 200, loss: 66.328018
+******************************
+src: 梅 红 雪 瑞 新 春 景
+output: 风 风 风 ， ， 风
+target: 政 善 人 和 好 社 风
+Saving model. Step: 300, loss: 68.240356
+******************************
+src: 真 爱 本 无 由 ， 何 分 对 错
+output: 风 心 ， ， ， ， ， 月 风
+target: 痴 情 亦 有 缘 ， 岂 可 事 非
+Saving model. Step: 400, loss: 65.340084
+******************************
+src: 白 眼
+output: 人
+target: 铁 鸡
+Saving model. Step: 500, loss: 65.597398
+******************************
+src: 浴 火 而 生 消 腐 气
+output: 万 风 风 风 ， 风 人
+target: 携 春 以 舞 荡 清 风
+Saving model. Step: 600, loss: 63.802348
+******************************
+src: 千 金 市 义
+output: 风 风 风 人
+target: 万 水 朝 宗
+Saving model. Step: 700, loss: 67.898114
+******************************
+src: 看 海 听 涛 增 度 量
+output: 一 月 一 月 月 春 人
+target: 寻 梅 赏 竹 长 精 神
+Saving model. Step: 800, loss: 68.804444
+******************************
+src: 云 霞 焕 彩 、 漈 水 流 珠 ， 进 士 奎 章 辉 大 雅
+output: 一 风 一 ， ， ， ， ， ， ， ， ， 风 风 风 风 风
+target: 马 背 驮 书 、 龙 舌 弄 韵 ， 桃 源 才 俊 仰 斯 文
+Saving model. Step: 900, loss: 62.880946
+******************************
+src: 千 年 造 就 名 山 景
+output: 一 风 一 风 月 春 春
+target: 万 里 赢 得 胜 境 图
+Saving model. Step: 1000, loss: 62.053087
+******************************
+src: 山 街 古 寺 穿 云 入
+output: 一 月 一 月 不 春 香
+target: 树 隐 流 泉 倚 石 听
+====================
+src:乌 云 几 朵 难 囚 月
+output: 一 月 一 月 不 春 香
+target: 巨 手 一 双 可 改 天
+====================
+src:素 面 馨 香 堪 闭 月
+output: 一 月 一 月 不 春 香
+target: 红 颜 失 色 饱 经 霜
+====================
+src:大 爱 无 疆 ， 师 恩 上 善 涓 涓 水
+output: 一 风 一 月 ， ， ， 一 一 一 春 风
+target: 真 情 有 迹 ， 孝 德 慈 萱 细 细 针
+====================
+src:我 热 茶 水 茶 热 我
+output: 一 月 一 月 不 春 香
+target: 花 牵 蝶 衣 蝶 牵 花
+====================
+src:钱 撂 银 行 ， 尽 享 轻 松 ， 九 曲 涛 声 堪 作 枕
+output: 一 风 一 ， ， 风 风 ， ， ， ， ， 风 一 ， 春
+target: 手 持 金 卡 ， 任 由 潇 洒 ， 无 边 云 路 敢 为 家
+====================
+src:闭 户 自 停 千 里 足
+output: 一 月 一 月 不 春 香
+target: 隔 山 人 起 半 壁 堂
+====================
+src:红 烛 有 泪 ， 教 案 一 桌 白 鬓 发
+output: 一 风 一 月 ， ， ， 一 一 一 春 风
+target: 粉 笔 无 言 ， 讲 台 三 尺 写 春 秋
+====================
+src:芝 兰 得 气 一 庭 秀
+output: 一 月 一 月 不 春 香
+target: 桃 李 成 阴 四 海 春
+====================
+src:家 山 依 旧 绿 ， 夕 照 微 红 ， 不 见 炊 烟 四 起
+output: 一 风 一 ， ， 风 风 ， 风 风 ， ， 风 一 春 风
+target: 鬓 发 已 然 衰 ， 乡 音 犹 在 ， 笑 邀 老 酒 同 沽
+====================
+src:江 山 如 画 谁 泼 墨
+output: 一 月 一 月 不 春 香
+target: 美 女 多 娇 竞 折 腰
+====================
+src:梅 花 开 岭 上 ， 香 风 一 阵 疑 春 到
+output: 一 风 一 ， ， ， ， ， 风 一 ， 春 风
+target: 山 月 照 窗 前 ， 故 土 三 更 入 梦 来
+====================
+src:风 雨 起 南 湖 ， 点 亮 明 灯 一 盏
+output: 一 风 一 ， ， ， ， ， 一 春 风 风
+target: 雪 冰 封 北 国 ， 写 成 绝 唱 千 秋
+====================
+src:一 纸 春 诗 梅 作 序
+output: 一 月 一 月 不 春 香
+target: 两 束 艳 朵 骨 存 心
+====================
+src:寒 鸭 戏 水 江 翻 浪
+output: 一 月 一 月 不 春 香
+target: 热 狗 馋 人 口 吃 香
+====================
+src:手 执 香 玉 心 无 物
+output: 一 月 一 月 不 春 香
+target: 坐 拥 古 书 意 不 波
+====================
+src:不 觉 草 色 侵 山 径
+output: 一 月 一 月 不 春 香
+target: 一 路 花 香 近 酒 家
+Evaluate model. Step: 1000, score: 0.000000, loss: 62.053087
+Saving model. Step: 1100, loss: 62.902564
+******************************
+src: 长 空 雁 过 ， 一 声 划 破 清 秋 色
+output: 一 风 一 月 ， 春 风 一 ， ， 春 人
+target: 子 夜 风 回 ， 书 缕 吹 开 紫 菊 香
+Saving model. Step: 1200, loss: 63.689226
+******************************
+src: 始 祖 摇 篮 ， 崇 文 喜 绘 开 明 史
+output: 春 风 一 月 ， 一 风 一 月 、 春 天
+target: 客 家 福 地 ， 重 教 欣 描 锦 绣 图
+Saving model. Step: 1300, loss: 63.581640
+******************************
+src: 杂 斑 衣 队 里 ， 在 甥 馆 亲 中 ， 我 独 愧 冯 家 布 袋
+output: 一 风 千 ， ， ， 一 风 千 风 ， ， 一 风 一 月 月 千 人
+target: 合 卦 象 全 爻 ， 后 元 宵 五 日 ， 公 竟 归 白 氏 先 龛
+Saving model. Step: 1400, loss: 61.360470
+******************************
+src: 刀 枪 不 入 城 墙 厚
+output: 一 水 无 水 月 月 人
+target: 日 月 无 光 天 地 昏
+Saving model. Step: 1500, loss: 62.806976
+******************************
+src: 一 页 红 尘 读 到 老
+output: 一 水 春 风 月 月 春
+target: 半 卷 世 故 碾 成 痴
+Saving model. Step: 1600, loss: 60.561405
+******************************
+src: 水 冷 金 寒 ， 火 神 庙 大 兴 土 木
+output: 一 风 一 水 ， 一 风 一 水 一 人 香
+target: 南 腔 北 调 ， 中 军 官 甚 么 东 西
+Saving model. Step: 1700, loss: 62.314173
+******************************
+src: 江 心 雾 笼 千 帆 影
+output: 一 月 无 风 一 月 心
+target: 水 域 云 开 万 海 峰
+Saving model. Step: 1800, loss: 64.866997
+******************************
+src: 偶 得 一 官 从 七 品
+output: 一 心 一 月 一 一 春
+target: 且 居 二 线 准 三 陪
+Saving model. Step: 1900, loss: 59.487770
+******************************
+src: 剑 气 壮 如 虹 ， 邀 万 里 婵 娟 辉 舞 榭
+output: 风 风 风 月 月 ， 一 风 风 风 月 月 春 风
+target: 琴 音 柔 似 水 ， 托 一 帘 幽 梦 寄 瑶 台
+Saving model. Step: 2000, loss: 61.103652
+******************************
+src: 客 是 银 人 犹 待 治
+output: 风 花 一 月 万 千 人
+target: 家 藏 金 穴 尚 需 熔
+====================
+src:金 龙 掣 电 倾 盆 雨
+output: 风 月 花 花 月 月 花
+target: 疾 鼓 追 风 阴 晦 天
+====================
+src:春 秋 不 记 收 播 事
+output: 月 月 无 花 月 月 人
+target: 岁 月 难 容 勾 斗 情
+====================
+src:愿 为 出 海 月
+output: 月 月 不 花 人
+target: 自 有 向 山 心
+====================
+src:碧 水 邀 春 色
+output: 风 花 月 月 花
+target: 白 云 入 画 屏
+====================
+src:鸿 恩 三 春 晖 满 阁
+output: 风 心 一 月 月 花 心
+target: 仁 孝 寸 草 翠 盈 园
+====================
+src:一 袭 秋 风 吹 瘦 月
+output: 一 心 一 月 月 花 人
+target: 几 丝 春 雨 醉 羞 花
+====================
+src:反 闭 衡 门 拥 图 籍
+output: 一 心 无 花 月 月 人
+target: 新 装 法 锦 押 珊 瑚
+====================
+src:撩 动 银 河 ， 七 夕 一 年 一 度 文 星 聚 ， 我 欲 乘 风 来 也
+output: 一 心 花 ， 千 风 千 ， 千 风 千 风 人 月 ， 一 风 一 月 万 春
+target: 张 扬 帆 影 ， 千 家 万 梦 万 珠 书 海 逢 ， 君 当 对 月 醉 哉
+====================
+src:岁 月 流 金 ， 剩 却 归 舟 几 许 ？ 空 有 一 江 聆 晚 唱
+output: 一 心 千 ， 千 千 千 ， 千 心 千 ， 千 心 千 里 大 千 生
+target: 伊 人 隔 岸 ， 犹 如 落 梦 三 千 ， 恨 无 双 翼 逐 斜 阳
+====================
+src:千 家 纳 瑞 ， 二 十 四 字 箴 言 传 唱 同 圆 梦
+output: 一 心 一 ， 一 心 千 来 、 大 、 万 万 万 万 心
+target: 九 城 呈 祥 ， 一 百 八 声 乐 鼓 和 鸣 共 贺 春
+====================
+src:诗 心 醉 墨 ， 笔 刀 破 入 九 重 天
+output: 一 花 一 月 ， 一 风 千 风 万 万 春
+target: 景 色 怡 人 ， 荷 花 唤 来 十 里 香
+====================
+src:人 间 福 至 金 蛇 舞
+output: 风 月 无 花 月 月 人
+target: 大 地 春 回 骏 马 奔
+====================
+src:卯 是 卯 来 丁 是 丁 ， 一 丝 不 苟
+output: 一 心 千 ， 千 千 千 ， 一 心 千 春
+target: 兵 对 兵 罢 将 对 将 ， 两 败 俱 伤
+====================
+src:盖 世 文 章 ， 七 宝 床 中 眠 太 白
+output: 一 花 一 月 ， 一 风 千 来 月 月 人
+target: 家 庭 用 品 ， 五 金 店 里 动 真 的
+Evaluate model. Step: 2000, score: 0.000000, loss: 61.103652
+Saving model. Step: 2100, loss: 58.325573
+******************************
+src: 雪 韵 梅 花 谱
+output: 风 风 月 月 寒
+target: 云 裁 柳 絮 诗
+Saving model. Step: 2200, loss: 60.915259
+******************************
+src: 虚 拟 空 间 穿 越 可
+output: 心 心 春 海 是 心 心
+target: 实 施 时 段 禁 行 难
+Saving model. Step: 2300, loss: 60.685600
+******************************
+src: 春 花 秋 月 何 时 艳
+output: 柳 水 春 风 一 水 春
+target: 梦 幻 早 阳 彩 境 纷
+Saving model. Step: 2400, loss: 60.089768
+******************************
+src: 篙 点 波 心 敲 节 奏
+output: 风 风 月 月 月 花 情
+target: 剑 悬 船 舷 刻 伤 痕
+Saving model. Step: 2500, loss: 60.002454
+******************************
+src: 不 信 源 头 无 活 水
+output: 三 风 月 月 不 人 人
+target: 何 愁 前 路 少 知 音
+Saving model. Step: 2600, loss: 59.754087
+******************************
+src: 属 右 行 、 属 左 行 、 属 下 行 ， 大 化 同 流 ， 巢 隧 以 还 ， 韦 编 书 契 文 字
+output: 一 民 有 ， ， ， ， ， ， ， ， ， 大 心 ， ， ， 人 民 人 世 ， 大 心 、 世 民 程
+target: 曰 秦 隶 、 曰 汉 隶 、 曰 晋 隶 ， 随 时 递 变 ， 许 徐 而 外 ， 尚 多 羽 翼 功 臣
+Saving model. Step: 2700, loss: 58.884427
+******************************
+src: 青 山 隐 隐 ， 欲 乘 风 北 渡 登 堂 ， 拜 堂 中 欧 像
+output: 龙 水 人 ， ， 人 人 人 ， ， ， ， ， 一 水 长 人 图
+target: 江 水 滔 滔 ， 想 载 月 东 来 照 壁 ， 诵 壁 上 苏 词
+Saving model. Step: 2800, loss: 59.273232
+******************************
+src: 开 怀 无 疾 何 需 药
+output: 大 世 无 人 有 有 人
+target: 运 动 健 身 是 妙 方
+Saving model. Step: 2900, loss: 61.266964
+******************************
+src: 淡 水 花 莲 岛
+output: 春 风 月 月 香
+target: 新 竹 日 月 潭
+Saving model. Step: 3000, loss: 59.090638
+******************************
+src: 笔 下 生 花 ， 今 日 喜 为 芦 泮 士
+output: 风 风 水 水 ， 一 风 风 水 水 中 香
+target: 胸 中 吐 绣 ， 他 年 定 作 国 家 宾
+====================
+src:青 野 独 行 听 布 谷
+output: 风 风 有 月 见 中
+target: 中 朝 一 起 骂 石 原
+====================
+src:花 好 月 圆 人 寿
+output: 风 风 风 月 月 香
+target: 时 和 岁 乐 年 丰
+====================
+src:大 雄 流 佛 韵
+output: 风 水 见 中 香
+target: 宝 殿 泛 春 光
+====================
+src:杯 小 但 容 天 地 事
+output: 人 人 有 月 月 中 心
+target: 舟 轻 可 载 古 今 愁
+====================
+src:青 衫 洗 旧 书 香 在
+output: 柳 水 无 风 月 月 香
+target: 碧 筩 斟 空 酒 味 浓
+====================
+src:叮 咛 装 进 行 囊 里
+output: 人 水 人 人 、 地 中
+target: 呼 唤 藏 于 绣 枕 边
+====================
+src:一 宵 露 涴 梨 花 泣
+output: 一 水 风 风 柳 月 香
+target: 数 日 霜 欺 梅 蕊 欣
+====================
+src:一 杯 沧 海 已 容 我
+output: 一 水 风 风 一 自 香
+target: 二 两 清 风 也 醉 人
+====================
+src:尼 山 泗 水 ， 义 路 礼 门 ， 道 运 千 秋 迎 奥 运
+output: 天 地 千 ， 千 山 山 业 ， 一 年 千 里 第 中 中 图
+target: 圣 地 仁 天 ， 欢 歌 笑 语 ， 祥 云 万 里 步 青 云
+====================
+src:简 单 日 子 从 容 过
+output: 有 有 人 人 有 有 人
+target: 百 味 人 生 大 胆 尝
+====================
+src:肯 唱 戏 是 阴 功 ， 谁 靠 菩 萨 吃 饭
+output: 有 人 人 有 人 水 ， 人 风 人 水 人 图
+target: 要 上 台 充 角 色 ， 须 看 时 景 穿 衣
+Evaluate model. Step: 3000, score: 0.000000, loss: 59.090638
+Saving model. Step: 3100, loss: 58.615348
+******************************
+src: 四 季 轮 回 知 冷 暖
+output: 一 山 月 水 不 来 生
+target: 千 秋 功 过 待 评 说
+Saving model. Step: 3200, loss: 57.219813
+******************************
+src: 一 带 相 连 相 隔 ， 纵 河 海 能 分 ， 燕 鸥 不 阻
+output: 一 千 无 有 风 ， ， 一 一 一 有 月 ， 一 水 不 心
+target: 千 年 有 色 有 声 ， 任 波 涛 跌 宕 ， 云 水 苍 茫
+Saving model. Step: 3300, loss: 57.470731
+******************************
+src: 二 八 小 妹 身 材 美
+output: 万 万 千 年 梦 里 新
+target: 三 六 长 兄 气 质 强
+Saving model. Step: 3400, loss: 56.994667
+******************************
+src: 二 踢 脚
+output: 万 里 荣
+target: 三 寸 钉
+Saving model. Step: 3500, loss: 57.566434
+******************************
+src: 台 上 状 元 ， 独 占 鳌 头 多 得 意
+output: 人 心 有 月 ， 无 心 有 月 不 无 心
+target: 剧 中 戏 子 ， 一 登 龙 位 好 威 风
+Saving model. Step: 3600, loss: 58.244300
+******************************
+src: 心 田 作 物 千 般 味
+output: 风 月 千 千 一 里 人
+target: 战 地 黄 花 分 外 香
+Saving model. Step: 3700, loss: 56.619968
+******************************
+src: 易 曰 乾 坤 定 矣
+output: 无 无 大 色 来 心
+target: 诗 云 钟 鼓 乐 之
+Saving model. Step: 3800, loss: 56.584184
+******************************
+src: 大 圣 千 钧 铺 彩 画
+output: 春 风 万 里 庆 春 春
+target: 金 鸡 一 曲 壮 新 程
+Saving model. Step: 3900, loss: 56.090848
+******************************
+src: 铮 铮 利 剑 ， 廓 清 贪 官 污 吏
+output: 大 月 无 心 ， 不 风 不 人 长 心
+target: 习 习 和 风 ， 吹 暖 公 意 民 心
+Saving model. Step: 4000, loss: 57.164201
+******************************
+src: 微 波 祝 福
+output: 水 日 长 风
+target: 短 信 拜 年
+====================
+src:此 去 灵 山 ， 路 转 峰 回 勤 问 道
+output: 无 来 大 意 ， 人 来 不 有 好 新 心
+target: 如 来 圣 境 ， 风 生 水 起 静 听 蝉
+====================
+src:金 蛇 狂 舞 人 心 乐
+output: 水 水 长 风 水 月 来
+target: 喜 鹊 欢 歌 春 意 浓
+====================
+src:习 动 不 置 能 损 欲
+output: 有 有 无 知 有 有 来
+target: 闻 勤 则 喜 真 得 师
+====================
+src:一 梦 衡 阳 秋 塞 远
+output: 一 山 碧 月 水 风 香
+target: 依 然 湖 广 稻 花 香
+====================
+src:石 球 圆 润 洁 白 ， 文 豪 欣 赏 当 家 宝
+output: 春 国 ， 风 春 国 ， 一 ， 长 人 万 里 春
+target: 方 料 青 黑 细 腻 ， 翰 苑 精 雕 做 砚 台
+====================
+src:气 大 才 疏 成 底 事
+output: 风 来 大 上 好 中 风
+target: 酒 足 饭 饱 笑 先 人
+====================
+src:天 仙 配 对 二 人 转
+output: 月 有 千 心 万 里 来
+target: 和 尚 西 游 三 藏 经
+====================
+src:坦 腹 东 床 成 快 婿
+output: 不 来 大 月 有 新 情
+target: 叩 头 北 阙 作 庸 臣
+====================
+src:梅 花 有 意 能 容 雪
+output: 水 下 如 来 不 上 风
+target: 柳 絮 无 情 不 让 风
+====================
+src:携 将 覆 雨 颠 云 手
+output: 长 有 风 风 入 上 风
+target: 隐 却 羞 花 闭 月 容
+====================
+src:民 生 画 卷 梅 题 字
+output: 水 上 风 风 水 日 风
+target: 国 是 诗 篇 日 盖 章
+====================
+src:正 能 量 沸 腾 神 州 大 地
+output: 大 有 新 风 、 上 大 春 风
+target: 中 国 梦 温 馨 枞 邑 人 家
+====================
+src:风 霜 经 笔 下
+output: 水 水 醉 中 风
+target: 骨 气 透 诗 中
+====================
+src:英 伦 国 手 雄 风 展
+output: 国 上 春 风 国 日 荣
+target: 中 共 龙 年 新 纪 开
+Evaluate model. Step: 4000, score: 0.000000, loss: 57.164201
+Saving model. Step: 4100, loss: 57.289526
+******************************
+src: 左 右 开 弓 ， 买 弄 梅 花 小 篆
+output: 春 风 不 月 ， 长 人 大 月 长 生
+target: 空 天 一 体 ， 张 扬 华 夏 雄 风
+Saving model. Step: 4200, loss: 57.674431
+******************************
+src: 红 牙 赤 面 石 榴 相
+output: 绿 月 春 风 柳 柳 红
+target: 绿 水 青 衣 沃 野 容
+Saving model. Step: 4300, loss: 57.040358
+******************************
+src: 大 展 宏 图 兴 国 运
+output: 和 民 国 业 展 民 图
+target: 鸿 开 伟 业 振 家 声
+Saving model. Step: 4400, loss: 57.341335
+******************************
+src: 临 乌 江 ， 叹 霸 王 气 短
+output: 大 人 水 ， 人 人 大 人 新
+target: 渡 赤 水 ， 知 共 党 才 高
+Saving model. Step: 4500, loss: 56.552523
+******************************
+src: 有 声 有 色 ， 唯 美 唯 真 ， 教 与 学 常 新 ， 满 堂 共 享 多 媒 体
+output: 一 里 无 心 ， 人 人 有 梦 ， 不 人 有 梦 梦 ， 不 为 无 为 不 古 人
+target: 博 见 博 闻 ， 勤 思 勤 练 ， 行 和 知 并 重 ， 来 日 可 期 大 作 为
+Saving model. Step: 4600, loss: 55.886336
+******************************
+src: 东 方 不 败 ， 名 扬 四 海 登 绝 顶
+output: 春 水 千 千 ， 千 里 千 风 入 大 香
+target: 妹 力 无 穷 ， 技 压 群 芳 夺 桂 冠
+Saving model. Step: 4700, loss: 57.049989
+******************************
+src: 今 朝 睡 醒 风 还 起
+output: 不 水 清 风 月 不 来
+target: 明 日 天 晴 我 复 来
+Saving model. Step: 4800, loss: 56.115202
+******************************
+src: 永 年 甘 露 ， 四 季 奇 株 馨 日 月
+output: 一 里 千 风 ， 千 州 大 月 大 春 风
+target: 广 府 古 城 ， 百 花 芳 草 淹 春 秋
+Saving model. Step: 4900, loss: 55.261695
+******************************
+src: 信 手 拾 来 秋 几 片
+output: 清 风 不 月 月 千 秋
+target: 即 兴 写 下 赋 一 篇
+Saving model. Step: 5000, loss: 55.408992
+******************************
+src: 甲 申 吉 幸 春 来 早
+output: 大 地 高 生 月 自 新
+target: 雨 水 丰 宜 土 变 金
+====================
+src:譬 牛 刀 小 试 其 才 ， 豪 气 未 除 ， 座 上 每 酣 文 举 酒
+output: 不 世 、 不 人 不 有 ， 不 人 人 有 ， 人 心 大 意 月 成 心
+target: 负 马 革 前 驱 之 志 ， 壮 怀 安 寄 ？ 箧 中 还 剩 放 翁 诗
+====================
+src:天 鹅 飞 起 处
+output: 月 月 伴 成 心
+target: 柳 燕 返 回 时
+====================
+src:华 夏 启 新 航 ， 继 往 开 来 ， 金 蛇 狂 舞 岐 江 韵
+output: 春 风 成 大 气 ， 喜 春 春 锦 ， 万 业 春 生 大 地 春
+target: 中 山 承 厚 德 ， 修 身 敬 业 ， 紫 燕 轻 裁 桂 岭 春
+====================
+src:石 可 腾 云 ， 真 佛 可 曾 腾 云 去
+output: 人 来 有 月 ， 何 有 何 能 不 月 来
+target: 洞 能 出 米 ， 谁 个 能 见 出 米 来
+====================
+src:马 上 催 春 催 上 马
+output: 风 风 大 月 伴 春 心
+target: 牛 群 送 岁 送 群 牛
+====================
+src:孝 容 海 岳 ， 古 邑 人 文 尤 焕 彩
+output: 人 有 春 风 ， 春 风 大 气 共 新 心
+target: 义 薄 云 天 ， 新 时 山 水 更 添 娇
+====================
+src:朵 朵 梅 香 醉 月
+output: 青 风 月 月 春 风
+target: 铮 铮 铁 骨 撑 天
+====================
+src:菊 为 秋 风 瘦
+output: 风 成 月 月 来
+target: 雪 因 冷 夜 肥
+====================
+src:一 路 冷 吟 梅 引 步
+output: 一 秋 春 月 月 来 香
+target: 三 春 热 恋 柳 牵 思
+====================
+src:水 榭
+output: 风 风
+target: 山 斋
+====================
+src:青 萍 碧 水 小 池 塘 ， 天 赐 绿 茶 一 碗
+output: 绿 月 清 风 月 月 风 ， 风 风 月 月 一 秋
+target: 红 杏 苍 苔 大 宅 院 ， 春 妆 秀 脸 半 空
+====================
+src:别 有 文 章 堪 换 酒
+output: 无 来 月 月 不 无 心
+target: 已 无 俗 事 可 关 心
+====================
+src:探 心 当 然 芯 芯 探
+output: 大 月 无 能 月 月 来
+target: 博 士 似 是 事 事 博
+====================
+src:明 月 满 梁 ， 淡 淡 烟 光 摇 草 木
+output: 春 风 一 月 ， 风 风 绿 月 伴 春 风
+target: 黄 花 入 座 ， 茫 茫 秀 色 映 楼 台
+Evaluate model. Step: 5000, score: 0.000000, loss: 55.408992
+Saving model. Step: 5100, loss: 55.176584
+******************************
+src: 痴 姑 花 甲 黄 昏 踽
+output: 长 上 风 风 天 月 香
+target: 少 妇 十 八 子 夜 归
+Saving model. Step: 5200, loss: 55.625810
+******************************
+src: 窗 外 蝉 鸣 雀 噪
+output: 风 中 柳 雨 红 香
+target: 曲 衷 武 熟 文 生
+Saving model. Step: 5300, loss: 55.800667
+******************************
+src: 和 谐 村 里 花 盈 院
+output: 春 舞 春 风 凤 正 门
+target: 发 展 城 中 月 满 楼
+Saving model. Step: 5400, loss: 54.584960
+******************************
+src: 极 目 天 涯 ， 潮 去 潮 来 烟 海 上
+output: 清 风 水 月 ， 风 风 大 月 画 中 中
+target: 回 眸 山 色 ， 云 舒 云 卷 画 图 中
+Saving model. Step: 5500, loss: 55.119789
+******************************
+src: 春 风 得 意 马 蹄 疾
+output: 春 月 开 风 风 月 新
+target: 化 雨 无 私 联 苑 欢
+Saving model. Step: 5600, loss: 55.259638
+******************************
+src: 易 辩 阴 阳 先 论 日
+output: 无 将 人 月 不 成 心
+target: 难 猜 晴 雨 可 观 天
+Saving model. Step: 5700, loss: 55.522700
+******************************
+src: 万 朵 榴 花 ， 点 燃 哪 位 诗 人 句
+output: 一 年 月 月 ， 一 上 清 来 月 月 情
+target: 千 畦 麦 浪 ， 勾 起 他 乡 墨 客 情
+Saving model. Step: 5800, loss: 54.522418
+******************************
+src: 国 民 安 泰 ， 千 秋 欢 庆
+output: 国 业 新 民 ， 万 代 同 荣
+target: 昌 盛 繁 荣 ， 万 代 长 春
+Saving model. Step: 5900, loss: 54.315759
+******************************
+src: 纵 作 浮 槎 心 有 岸
+output: 无 来 大 月 月 无 秋
+target: 难 为 落 雁 意 无 边
+Saving model. Step: 6000, loss: 54.411334
+******************************
+src: 无 云 山 露 骨
+output: 有 水 水 人 情
+target: 有 雨 柳 垂 头
+====================
+src:去 年 雪 里 寻 梅 迹
+output: 大 水 风 风 醉 水 香
+target: 他 日 风 前 和 竹 声
+====================
+src:环 卫 工 人 人 敬 重
+output: 大 人 人 水 世 无 生
+target: 相 思 泪 滴 滴 流 连
+====================
+src:鱼 跃 鹰 飞 ， 滚 滚 春 潮 催 改 革
+output: 城 迎 水 舞 ， 春 风 春 水 展 新 春
+target: 月 圆 花 好 ， 融 融 喜 气 入 人 家
+====================
+src:风 吹 羊 头 夕 阳 醉
+output: 月 上 花 花 水 水 香
+target: 雨 润 丹 河 霞 光 美
+====================
+src:民 意 岂 沉 沦 ？ 禹 甸 尧 封 ， 河 山 还 我 金 汤 固
+output: 人 心 有 有 人 ， 不 无 人 水 ， 不 有 不 如 世 地 来
+target: 人 心 当 崛 起 ， 香 江 粤 海 ， 港 澳 归 宗 玉 镜 圆
+====================
+src:挥 毫 始 觉 学 识 浅
+output: 大 水 不 为 人 人 来
+target: 温 古 才 知 笔 墨 香
+====================
+src:是 是 非 非 地
+output: 无 为 有 有 人
+target: 明 明 白 白 天
+====================
+src:风 雨 起 南 湖 ， 点 亮 明 灯 一 盏
+output: 春 风 开 水 水 ， 一 秋 月 水 千 秋
+target: 雪 冰 封 北 国 ， 写 成 绝 唱 千 秋
+====================
+src:生 产 添 财 富 ， 天 天 报 喜
+output: 民 民 共 富 民 ， 富 地 无 家
+target: 安 全 宝 康 宁 ， 事 事 无 忧
+====================
+src:花 城 花 魂 花 风 采 ， 四 时 洁 艳
+output: 春 水 水 ， 一 万 秋 ， 万 里 长 流
+target: 岭 南 岭 诗 岭 楹 联 ， 千 秋 芳 馨
+Evaluate model. Step: 6000, score: 0.210612, loss: 54.411334
+Saving model. Step: 6100, loss: 55.857288
+******************************
+src: 领 海 划 基 线 ， 天 经 地 义
+output: 大 民 、 国 国 ， 国 展 春 风
+target: 盗 贼 生 野 心 ， 浪 打 沙 埋
+Saving model. Step: 6200, loss: 54.605811
+******************************
+src: 梅 残 骨 瘦 香 依 旧
+output: 月 上 花 中 月 落 遥
+target: 酒 淡 诗 寒 梦 黯 然
+Saving model. Step: 6300, loss: 55.144522
+******************************
+src: 赋 咏 洞 庭 春 色 醉
+output: 闲 来 山 水 梦 风 香
+target: 琴 鸣 函 谷 晓 光 寒
+Saving model. Step: 6400, loss: 53.561572
+******************************
+src: 画 卷 初 开 沧 海 月
+output: 春 中 不 是 醉 云 风
+target: 春 词 欲 染 碧 云 天
+Saving model. Step: 6500, loss: 53.148403
+******************************
+src: 九 天 风 起 星 河 动
+output: 万 里 春 中 锦 气 飞
+target: 半 壁 霞 红 云 海 浮
+Saving model. Step: 6600, loss: 54.744057
+******************************
+src: 不 可 讥 ， 不 可 谤 ， 不 可 诳 ， 总 之 不 欺 不 忤
+output: 无 为 心 ， 不 为 是 ， 不 是 子 ， 不 为 、 是 为 之
+target: 有 所 畏 ， 有 所 尊 ， 有 所 崇 ， 必 定 有 得 有 兴
+Saving model. Step: 6700, loss: 54.761482
+******************************
+src: 谷 底 焉 知 峰 上 树
+output: 风 间 有 是 月 中 人
+target: 屏 前 可 晓 世 间 情
+Saving model. Step: 6800, loss: 55.311869
+******************************
+src: 虎 跃 龙 腾 ， 万 众 一 心 扬 国 粹
+output: 龙 腾 日 舞 ， 万 年 万 业 展 春 春
+target: 云 蒸 霞 蔚 ， 十 年 三 代 壮 联 坛
+Saving model. Step: 6900, loss: 53.854099
+******************************
+src: 树 往 上 长 ， 根 往 下 扎 ， 成 才 不 易
+output: 人 心 明 心 ， 看 人 无 心 ， 不 我 无 来
+target: 人 向 高 走 ， 水 向 低 淌 ， 顺 理 而 章
+Saving model. Step: 7000, loss: 53.354211
+******************************
+src: 美 酒 葡 萄 酿
+output: 清 风 大 画 香
+target: 香 茶 茉 莉 窨
+====================
+src:年 逾 古 稀 ， 半 世 军 人 征 战 少
+output: 风 开 大 月 ， 一 年 风 色 醉 人 多
+target: 身 无 长 物 ， 一 支 秃 笔 撰 联 歪
+====================
+src:墙 外 青 山 横 黛 色
+output: 风 中 碧 月 醉 清 花
+target: 门 前 流 水 带 花 香
+====================
+src:裁 万 里 风 云 ， 有 色 有 声 长 播 远
+output: 凭 三 分 大 月 ， 一 年 一 月 好 成 新
+target: 飨 三 门 父 老 ， 一 诗 一 画 总 传 真
+====================
+src:引 玉 抛 砖 ， 碧 玉 如 来 砖 在 下
+output: 清 风 入 月 ， 风 风 一 里 月 无 时
+target: 投 石 问 路 ， 青 石 既 出 路 于 前
+====================
+src:未 必 经 霜 皆 出 色
+output: 不 知 大 月 不 无 人
+target: 无 须 落 月 亦 伤 神
+====================
+src:最 堪 怜 誉 共 苏 辛 、 才 齐 屈 宋 ， 十 年 宦 海 七 年 贬
+output: 一 有 一 年 大 国 、 一 古 、 一 年 ， 一 业 千 年 一 古 多
+target: 不 枉 赋 飞 花 似 梦 、 细 雨 如 愁 ， 一 代 词 风 百 代 摹
+====================
+src:七 星 台 上 步 罡 斗
+output: 一 里 风 花 醉 大 心
+target: 五 丈 原 中 落 魁 元
+====================
+src:一 思 极 苦 身 毛 竖
+output: 一 道 谁 来 月 下 多
+target: 常 念 众 生 心 血 流
+====================
+src:儿 时 立 下 青 云 志
+output: 明 子 不 知 大 月 人
+target: 死 后 不 留 苦 命 钱
+====================
+src:贪 恶 作 恶 ， 意 识 嗔 贪 是 地 狱
+output: 为 人 不 有 ， 人 心 大 道 有 人 心
+target: 想 善 行 善 ， 身 心 安 想 即 天 堂
+====================
+src:登 高 渐 觉 红 尘 远
+output: 醉 月 不 知 月 月 寒
+target: 下 海 方 知 世 事 艰
+Evaluate model. Step: 7000, score: 0.000000, loss: 53.354211
+Saving model. Step: 7100, loss: 53.733928
+******************************
+src: 歌 动 鹏 城 ， 舞 动 鹏 城 ， 歌 舞 欢 腾 迎 大 运
+output: 春 飞 春 水 ， 春 风 福 舞 ， 春 中 春 展 展 新 图
+target: 东 夺 桂 冠 ， 西 夺 桂 冠 ， 东 西 鼎 力 举 金 樽
+Saving model. Step: 7200, loss: 55.528624
+******************************
+src: 秋 嗟 落 叶 多 成 句
+output: 日 落 青 风 不 是 情
+target: 夜 执 空 樽 未 放 怀
+Saving model. Step: 7300, loss: 53.953776
+******************************
+src: 经 天 纬 地 大 工 程 ， 一 带 情 ， 一 路 情 ， 追 求 测 绘 高 精 度
+output: 国 国 文 心 国 国 ， ， 一 方 国 ， 一 方 国 ， 一 有 春 民 国 国 来
+target: 继 往 开 来 新 技 术 ， 三 维 画 ， 三 番 画 ， 见 证 文 明 古 线 图
+Saving model. Step: 7400, loss: 53.524186
+******************************
+src: 归 心 从 念 远
+output: 不 事 不 人 长
+target: 佳 句 得 愁 新
+Saving model. Step: 7500, loss: 52.863610
+******************************
+src: 纸 上 奇 峰 诗 叠 起
+output: 风 中 碧 月 月 归 来
+target: 心 头 块 垒 酒 浇 开
+Saving model. Step: 7600, loss: 55.298056
+******************************
+src: 黑 白 无 常 生 死 劫
+output: 清 心 无 意 乐 人 人
+target: 顶 挖 有 技 补 封 逼
+Saving model. Step: 7700, loss: 54.663808
+******************************
+src: 云 水 一 竿 浑 忘 世
+output: 山 花 一 里 不 成 情
+target: 烟 霞 两 袖 已 脱 俗
+Saving model. Step: 7800, loss: 54.451567
+******************************
+src: 湿 地 焕 生 机 ， 听 鸥 鸟 交 鸣 ， 余 韵 翻 来 重 奏 曲
+output: 清 心 来 大 地 ， 看 中 飞 送 彩 ， 风 心 更 醉 共 生 香
+target: 平 屋 融 野 趣 ， 看 天 鹅 曼 舞 ， 举 翮 抖 落 一 湖 诗
+Saving model. Step: 7900, loss: 54.410895
+******************************
+src: 闹 市 藏 幽 ， 於 无 声 处 闻 鼙 鼓
+output: 清 心 有 远 ， 有 日 风 中 有 古 人
+target: 闲 庭 信 步 ， 在 有 月 时 寄 相 思
+Saving model. Step: 8000, loss: 52.870572
+******************************
+src: 寄 寓 客 家 ， 牢 守 寒 窗 空 寂 寞
+output: 看 来 天 月 ， 无 将 风 月 不 清 流
+target: 迷 途 辽 远 ， 退 还 莲 迳 返 逍 遥
+====================
+src:入 镜 鸾 窥 沼
+output: 看 风 月 落 风
+target: 归 心 燕 在 梁
+====================
+src:花 开 应 笑 我
+output: 月 静 不 无 人
+target: 衣 锦 早 还 乡
+====================
+src:灯 影 憧 憧 ， 凄 绝 暗 风 吹 雨 夜
+output: 清 风 水 影 ， 看 看 水 影 醉 风 云
+target: 荻 花 瑟 瑟 ， 魂 销 明 月 满 船 时
+====================
+src:无 意 当 中 诗 意 涌
+output: 无 时 不 是 梦 人 来
+target: 失 身 之 后 汝 身 轻
+====================
+src:有 权 有 势 白 居 易
+output: 无 事 无 时 大 事 多
+target: 无 路 无 桥 蜀 道 难
+====================
+src:黄 埃 散 漫 悲 风 飒
+output: 白 月 长 来 入 月 来
+target: 碧 云 暗 淡 斜 阳 下
+====================
+src:上 天 堂 ， 凌 绝 顶 ， 腾 云 驾 雾 着 霓 裳 ， 只 觉 身 临 仙 境
+output: 看 大 月 ， 看 大 ， 看 ， 看 大 人 风 水 月 ， 无 看 月 上 人 人
+target: 观 瀑 布 ， 赏 奇 花 ， 涉 水 爬 山 穿 锦 绣 ， 方 知 美 在 人 间
+====================
+src:河 伯 捧 觞 ， 游 观 沧 海
+output: 人 中 入 梦 ， 看 上 乾 坤
+target: 天 帝 悬 车 ， 凭 乘 风 云
+====================
+src:竹 榭 风 流 花 气 重
+output: 春 风 月 舞 月 花 红
+target: 茅 台 松 老 酒 龄 高
+====================
+src:拔 君 经 生 ， 喜 歆 嗣 向
+output: 看 人 有 处 ， 看 是 无 生
+target: 问 我 奇 字 ， 慰 雄 传 芭
+====================
+src:世 以 和 兴 ， 国 依 法 治
+output: 人 无 大 业 ， 大 业 精 心
+target: 人 凭 信 立 ， 梦 与 时 圆
+====================
+src:明 月 多 情 ， 牵 挂 流 云 容 易 瘦
+output: 清 风 有 梦 ， 无 看 月 月 醉 无 流
+target: 飞 花 失 意 ， 回 归 故 土 色 空 闲
+====================
+src:诗 情 画 意 ， 墨 客 笔 端 生 妙 趣
+output: 水 上 风 中 ， 风 流 水 月 醉 清 风
+target: 民 心 乡 俗 ， 作 家 书 简 尽 淋 漓
+====================
+src:常 见 痴 君 疏 殿 下
+output: 不 妨 大 事 是 人 间
+target: 偶 听 老 鬼 谬 狂 言
+====================
+src:晃 山 挥 笔 ， 舞 水 遣 词 ， 特 写 大 文 章 ， 展 于 风 雨 桥 边 ， 鼓 楼 脚 下
+output: 大 地 飞 风 ， 看 日 水 风 风 ， 看 日 中 风 ， 看 日 中 风 舞 韵 ， 喜 我 人 间
+target: 游 客 听 歌 ， 商 家 创 业 ， 平 添 新 气 象 ， 融 在 民 族 情 里 ， 时 尚 潮 中
+====================
+src:新 诗 即 故 交 ， 信 手 拈 来 皆 妙 句
+output: 大 事 无 时 处 ， 无 时 不 是 是 时 情
+target: 名 作 如 佳 酿 ， 由 心 生 发 满 深 情
+====================
+src:可 珍 土 地 忙 中 乐
+output: 不 是 风 风 月 上 情
+target: 有 味 诗 书 苦 后 甜
+Evaluate model. Step: 8000, score: 0.415681, loss: 52.870572
+Saving model. Step: 8100, loss: 53.893688
+******************************
+src: 花 树 呈 祥 彰 五 福
+output: 春 风 出 日 耀 千 家
+target: 城 乡 焕 彩 接 三 春
+Saving model. Step: 8200, loss: 53.516814
+******************************
+src: 记 滇 南 有 胜 境 同 名 ， 一 样 奇 观 擎 玉 阙
+output: 大 天 水 同 同 天 大 德 ， 千 年 大 起 壮 金 华
+target: 出 岭 际 犹 神 鹏 振 翼 ， 八 千 直 上 砥 云 流
+Saving model. Step: 8300, loss: 52.896118
+******************************
+src: 激 浊 扬 清 ， 手 眼 通 灵 缘 造 化
+output: 和 心 有 国 ， 春 心 大 业 乐 和 心
+target: 超 生 普 渡 ， 心 肠 向 善 本 慈 悲
+Saving model. Step: 8400, loss: 53.098928
+******************************
+src: 锦 笺 书 锦 句 ， 贺 人 民 幸 福
+output: 大 水 上 风 风 ， 更 国 国 如 春
+target: 春 晚 赏 春 联 ， 祝 祖 国 富 强
+Saving model. Step: 8500, loss: 53.847852
+******************************
+src: 老 柳 出 新 芽 ， 青 春 再 现
+output: 红 风 开 翠 色 ， 春 梦 犹 来
+target: 鲜 花 承 晓 露 ， 馥 郁 尤 添
+Saving model. Step: 8600, loss: 53.561567
+******************************
+src: 湘 鄂 有 情 ， 湖 分 南 北
+output: 人 心 有 度 ， 人 上 大 天
+target: 豫 秦 无 界 ， 汉 继 西 东
+Saving model. Step: 8700, loss: 52.922393
+******************************
+src: 鹤 惊 云 梦 九 天 外
+output: 天 上 风 间 一 里 中
+target: 心 有 灵 犀 一 点 通
+Saving model. Step: 8800, loss: 52.508575
+******************************
+src: 开 放 三 旬 花 似 海
+output: 开 来 万 世 月 如 天
+target: 繁 荣 百 业 岁 如 歌
+Saving model. Step: 8900, loss: 53.749763
+******************************
+src: 校 长 长 说 学 校 苦
+output: 人 明 不 在 乐 人 香
+target: 银 行 行 话 调 银 难
+Saving model. Step: 9000, loss: 52.783969
+******************************
+src: 太 空 逐 鹿 ， 何 谈 天 险
+output: 大 水 开 心 ， 不 是 人 新
+target: 星 际 筑 巢 ， 岂 畏 路 遥
+====================
+src:九 府 重 轻 ， 尚 父 有 谋 诒 管 子
+output: 三 方 不 去 ， 长 心 不 是 壮 文 风
+target: 十 年 生 聚 ， 计 然 之 术 授 陶 朱
+====================
+src:平 生 最 是 相 思 苦
+output: 大 意 难 然 不 必 然
+target: 小 别 方 知 恩 爱 长
+====================
+src:改 革 春 潮 涌
+output: 喜 扬 国 业 腾
+target: 和 谐 福 祉 多
+====================
+src:一 事 无 成 拼 尽 力
+output: 一 言 不 是 乐 生 心
+target: 万 缘 随 喜 放 空 心
+====================
+src:新 诗 即 故 交 ， 信 手 拈 来 皆 妙 句
+output: 大 地 无 言 月 ， 清 花 入 水 尽 新 心
+target: 名 作 如 佳 酿 ， 由 心 生 发 满 深 情
+====================
+src:马 嵬 沉 香 千 古 事
+output: 龙 舞 迎 香 万 里 春
+target: 牛 津 寄 傲 万 邦 人
+====================
+src:施 善 政 ， 马 跃 民 欢 歌 盛 世
+output: 创 国 民 ， 春 谐 国 业 创 新 春
+target: 沐 清 风 ， 花 红 柳 绿 绣 阳 春
+====================
+src:清 淮 无 波 平 如 席
+output: 白 水 有 人 自 有 人
+target: 荒 郡 迫 野 嗟 可 矜
+====================
+src:莲 台 甘 露 洒 ， 点 点 滴 滴 全 是 善
+output: 水 色 清 花 流 ， 风 开 水 色 不 无 穷
+target: 佛 座 慧 风 尘 ， 时 时 刻 刻 尽 扬 仁
+====================
+src:世 情 闲 尽 见
+output: 月 色 不 无 然
+target: 诗 思 涩 难 裁
+====================
+src:佚 事 足 征 ， 可 补 游 侠 货 殖 两 传
+output: 清 风 入 彩 ， 不 得 清 风 耀 水 千 秋
+target: 前 贤 不 让 ， 洵 是 鲁 连 子 房 一 流
+====================
+src:雾 石 云 松 ， 名 山 四 绝 名 一 品
+output: 青 山 碧 水 ， 青 水 长 开 酒 千 秋
+target: 古 今 中 外 ， 胜 迹 千 秋 胜 万 般
+Evaluate model. Step: 9000, score: 0.276164, loss: 52.783969
+Saving model. Step: 9100, loss: 51.972520
+******************************
+src: 何 夕
+output: 无 人
+target: 今 秋
+Saving model. Step: 9200, loss: 52.964312
+******************************
+src: 静 夜 宁 心 寻 妙 句
+output: 春 花 落 酒 醉 新 人
+target: 皎 月 圆 缺 觅 知 音
+Saving model. Step: 9300, loss: 52.700361
+******************************
+src: 风 摇 翠 竹 一 窗 画
+output: 月 落 青 花 一 月 春
+target: 籁 伴 鹦 声 两 阙 词
+Saving model. Step: 9400, loss: 52.668757
+******************************
+src: 泊 舟 渐 近 桃 源 地
+output: 对 海 犹 知 春 水 天
+target: 寄 梦 还 依 柳 岸 风
+Saving model. Step: 9500, loss: 52.017053
+******************************
+src: 竹 不 开 花 难 引 蝶
+output: 花 无 有 水 自 知 风
+target: 梅 方 吐 蕊 自 随 风
+Saving model. Step: 9600, loss: 51.951983
+******************************
+src: 野 钓 烟 波 上
+output: 春 来 紫 子 中
+target: 菩 提 喜 笑 中
+Saving model. Step: 9700, loss: 53.739015
+******************************
+src: 明 湖 好 风 光 ， 百 鸟 争 鸣 花 似 锦
+output: 大 人 开 大 业 ， 千 时 共 梦 梦 如 春
+target: 济 南 多 壮 士 ， 群 英 奋 发 气 如 虹
+Saving model. Step: 9800, loss: 52.731167
+******************************
+src: 十 八 大 蓝 图 ， 民 心 向 党
+output: 一 千 年 国 业 ， 国 水 如 风
+target: 五 千 年 文 明 ， 翰 墨 飘 香
+Saving model. Step: 9900, loss: 52.145024
+******************************
+src: 放 贷 助 三 农 ， 田 园 送 去 三 春 雨
+output: 迎 春 开 万 载 ， 大 国 千 开 万 里 春
+target: 倾 情 扶 万 众 ， 诚 信 迎 来 万 朵 霞
+Saving model. Step: 10000, loss: 51.522451
+******************************
+src: 兰 亭 旧 迹 ， 蕴 风 流 ， 千 载 斯 文 盛 事
+output: 天 水 红 风 ， 春 风 月 ， 一 千 大 水 春 秋
+target: 桃 柳 泽 香 ， 观 翠 色 ， 一 朝 烂 漫 春 光
+====================
+src:宝 幢
+output: 金 宫
+target: 莲 花
+====================
+src:风 静 新 塘 鱼 读 月
+output: 月 开 白 月 柳 含 花
+target: 林 和 碧 野 鸟 鸣 祥
+====================
+src:美 景 宜 宾 ， 七 彩 皴 开 千 幅 锦
+output: 金 羊 献 力 ， 一 千 年 万 里 春 秋
+target: 翠 屏 醉 客 ， 五 粮 酿 就 万 家 春
+====================
+src:竹 院 莺 栖 高 境 界
+output: 春 风 月 暖 好 人 间
+target: 鱼 池 龙 化 好 来 头
+====================
+src:炮 龙 烹 凤
+output: 羊 马 腾 龙
+target: 悬 金 佩 玉
+====================
+src:民 意 为 先 ， 建 设 和 谐 新 税 务
+output: 民 民 创 力 ， 欣 同 大 业 大 民 生
+target: 国 经 稳 固 ， 迎 来 喜 悦 耀 鹏 程
+====================
+src:上 天 堂 ， 凌 绝 顶 ， 腾 云 驾 雾 着 霓 裳 ， 只 觉 身 临 仙 境
+output: 看 天 子 、 无 人 ， 不 有 ， 有 人 人 生 生 ， 不 知 大 世 人 人
+target: 观 瀑 布 ， 赏 奇 花 ， 涉 水 爬 山 穿 锦 绣 ， 方 知 美 在 人 间
+====================
+src:香 能 醉 眼 ， 秀 自 怡 心 ， 一 山 胜 景 融 文 翰
+output: 风 到 春 风 ， 春 秋 盛 世 ， 一 点 春 风 入 古 图
+target: 高 不 凌 人 ， 幽 堪 化 物 ， 三 教 清 音 涤 垢 尘
+====================
+src:西 风 渐 劲 秋 声 烈
+output: 紫 月 无 分 月 色 香
+target: 大 雪 狂 时 冬 意 浓
+====================
+src:当 阳 桥 下 英 雄 胆
+output: 一 世 人 中 大 世 人
+target: 马 嵬 坡 前 美 女 魂
+====================
+src:一 而 十 ， 十 而 百 ， 百 而 千 ， 千 千 万 万
+output: 一 十 生 ， 不 为 德 ， 不 能 在 ， 一 代 一 千
+target: 工 则 巧 ， 巧 则 优 ， 优 则 久 ， 久 久 长 长
+====================
+src:夕 夕 多 良 会
+output: 人 人 有 有 人
+target: 人 人 从 夜 游
+====================
+src:于 夫 下 海 网 张 也
+output: 有 世 无 人 世 界 乎
+target: 姜 女 攻 城 墙 倒 乎
+====================
+src:闲 将 往 事 从 头 数
+output: 不 是 清 风 不 是 人
+target: 或 有 一 花 为 我 开
+Evaluate model. Step: 10000, score: 0.263240, loss: 51.522451
+Saving model. Step: 10100, loss: 52.124177
+******************************
+src: 清 水 江 中 ， 别 致 拉 拉 渡 ， 迎 宾 送 货 回 回 快
+output: 新 风 国 子 ， 喜 风 大 梦 心 ， 大 意 兴 人 乐 大 新
+target: 洪 安 镇 上 ， 繁 华 转 转 场 ， 购 物 经 商 处 处 忙
+Saving model. Step: 10200, loss: 52.937919
+******************************
+src: 鸭 游 碧 水 ， 双 蹼 踏 尽 涟 漪 路
+output: 风 落 春 风 ， 一 雨 无 来 柳 画 云
+target: 雁 旅 蓝 天 ， 孤 影 划 空 翦 霭 云
+Saving model. Step: 10300, loss: 54.196888
+******************************
+src: 雨 过 云 收 碧
+output: 风 开 水 落 红
+target: 春 来 杏 走 红
+Saving model. Step: 10400, loss: 52.066172
+******************************
+src: 闭 户 温 书 寻 妙 境
+output: 开 风 入 月 醉 新 人
+target: 推 窗 望 月 觅 佳 音
+Saving model. Step: 10500, loss: 50.962791
+******************************
+src: 砚 取 檐 前 雨
+output: 风 来 人 上 人
+target: 禅 归 海 外 峰
+Saving model. Step: 10600, loss: 51.472988
+******************************
+src: 一 堂 新 课 当 学 好
+output: 一 世 高 心 不 古 多
+target: 重 点 内 容 要 记 牢
+Saving model. Step: 10700, loss: 51.687540
+******************************
+src: 渔 心 若 水 雅 而 淡
+output: 天 水 无 风 月 有 闲
+target: 钓 骨 似 竹 老 亦 坚
+Saving model. Step: 10800, loss: 51.867942
+******************************
+src: 百 柳 报 春 兆
+output: 一 年 共 福 春
+target: 千 花 传 欢 歌
+Saving model. Step: 10900, loss: 50.700673
+******************************
+src: 归 云 无 处 灭
+output: 有 水 有 时 来
+target: 天 火 有 时 来
+Saving model. Step: 11000, loss: 52.183707
+******************************
+src: 博 物 铭 瓜 子
+output: 高 州 有 古 人
+target: 丰 碑 忆 邓 公
+====================
+src:时 有 落 花 至
+output: 我 无 冷 月 来
+target: 远 随 流 水 香
+====================
+src:影 如 残 月 落 花 坠
+output: 风 似 红 山 伴 月 飞
+target: 身 似 闲 云 野 鹤 飞
+====================
+src:凡 所 有 相 ， 皆 为 虚 妄
+output: 我 无 无 畏 ， 不 有 无 私
+target: 唯 特 殊 人 ， 不 惧 权 威
+====================
+src:聊 斋 故 事 多 ， 老 鬼 出 山 犹 托 梦
+output: 此 业 高 风 起 ， 春 风 似 月 总 抒 心
+target: 国 粹 知 音 少 ， 秋 风 听 雨 不 成 声
+====================
+src:桃 腮 映 日 ， 柳 线 弹 风 ， 十 里 芳 华 开 画 景
+output: 玉 水 飞 风 ， 千 秋 焕 彩 ， 千 秋 春 色 沐 春 风
+target: 鹭 鸟 戏 波 ， 渔 舟 唱 晚 ， 一 湖 澄 碧 涌 春 潮
+====================
+src:白 首 放 歌 须 纵 酒
+output: 青 花 入 月 不 沾 花
+target: 花 心 好 色 老 偷 情
+====================
+src:市 场 经 济 由 妻 管
+output: 人 子 高 心 有 子 心
+target: 菩 萨 心 肠 老 母 亲
+====================
+src:鹿 逐 寰 中 偏 得 意
+output: 风 开 水 上 不 含 心
+target: 狗 烹 阙 下 竟 辜 恩
+====================
+src:蝴 蝶 泉 边 寻 丽 迹
+output: 春 风 水 上 沐 新 风
+target: 桃 花 源 里 闹 春 风
+====================
+src:递 光 脑 袋 当 和 尚
+output: 大 子 人 心 不 有 生
+target: 打 肿 脸 皮 充 胖 儿
+====================
+src:寸 人 土 侍 伴 双 人 ， 从 武 从 文 从 淡 泊
+output: 大 世 人 无 无 处 界 ， 无 私 无 处 任 清 谐
+target: 十 口 心 思 留 三 口 ， 品 诗 品 画 品 清 茶
+Evaluate model. Step: 11000, score: 0.350999, loss: 52.183707
+Saving model. Step: 11100, loss: 52.738250
+******************************
+src: 书 可 医 愚 ， 翰 墨 牟 平 ， 书 山 堪 比 泰 山 重
+output: 心 如 大 志 ， 看 风 大 夏 ， 我 明 长 来 赤 业 新
+target: 文 能 载 道 ， 风 骚 华 夏 ， 文 脉 常 随 国 脉 兴
+Saving model. Step: 11200, loss: 51.577115
+******************************
+src: 寒 侵 石 径 滴 苍 翠
+output: 细 落 红 山 映 白 香
+target: 黛 染 林 烟 入 晚 晴
+Saving model. Step: 11300, loss: 50.979765
+******************************
+src: 平 生 道 义 存 ， 威 名 远 震
+output: 大 里 文 山 ， ， 大 步 长 生
+target: 万 古 江 河 在 ， 剑 气 犹 升
+Saving model. Step: 11400, loss: 52.004996
+******************************
+src: 嶰 竹 十 二 筩 调 律 吕
+output: 大 山 千 千 万 里 新 流
+target: 大 椿 八 千 岁 为 春 秋
+Saving model. Step: 11500, loss: 53.417567
+******************************
+src: 空 中 明 月 举 头 望
+output: 水 里 清 人 入 月 头
+target: 心 里 故 乡 闭 目 思
+Saving model. Step: 11600, loss: 50.999815
+******************************
+src: 春 风 梳 柳 千 枝 翠
+output: 紫 雨 流 花 万 户 红
+target: 夜 雨 润 花 万 朵 红
+Saving model. Step: 11700, loss: 51.351110
+******************************
+src: 浮 沉 得 失 随 天 命
+output: 不 子 无 情 有 世 情
+target: 富 贵 贫 寒 任 世 名
+Saving model. Step: 11800, loss: 50.740426
+******************************
+src: 对 外 孙 行 者
+output: 人 中 事 子 之 乎
+target: 联 中 鲁 道 夫
+Saving model. Step: 11900, loss: 50.509530
+******************************
+src: 仙 境 仙 花 ， 仙 园 仙 楼 阁 ， 仙 凡 共 赏
+output: 江 山 红 海 ， 人 地 ， 人 山 ， 风 士 无 流
+target: 古 风 古 韵 ， 古 县 古 牡 丹 ， 古 今 飘 香
+Saving model. Step: 12000, loss: 50.744281
+******************************
+src: 佳 酿 贮 时 ， 几 道 泥 封 香 染 透
+output: 无 花 流 酒 ， 一 声 春 雨 月 飞 来
+target: 绿 杨 深 处 ， 一 声 春 晓 醉 归 来
+====================
+src:秀 阁 美 人 开 秀 阁
+output: 新 天 新 水 醉 新 风
+target: 香 江 风 味 溢 香 江
+====================
+src:栖 身 东 海 心 以 静
+output: 大 地 清 风 月 不 来
+target: 面 壁 西 山 性 存 真
+====================
+src:几 杵 钟 声 惊 鹤 影
+output: 一 时 入 月 醉 风 风
+target: 一 江 渔 火 闪 星 光
+====================
+src:雁 阵 书 人 字
+output: 风 流 落 月 诗
+target: 星 空 绘 几 何
+====================
+src:锦 瑟 无 弦 惊 日 月
+output: 闲 情 有 意 有 春 秋
+target: 铜 钱 有 脚 走 街 衢
+====================
+src:马 到 五 关 思 兄 弟
+output: 龙 开 一 代 展 人 心
+target: 花 开 三 月 想 桃 园
+====================
+src:停 舟 把 酒 肝 肠 热
+output: 对 水 迎 风 月 月 香
+target: 攀 壁 临 渊 心 胆 寒
+====================
+src:何 必 假 虔 诚 ？ 做 事 全 凭 天 理
+output: 不 须 无 处 事 ， 为 心 不 见 此 人
+target: 无 须 空 祷 告 ， 回 头 便 是 好 人
+====================
+src:扶 老 助 残 ， 福 惠 九 州 春 焕 彩
+output: 迎 来 展 丽 ， 春 风 万 里 福 成 春
+target: 救 孤 济 困 ， 善 行 卅 载 梦 生 花
+====================
+src:梅 园 寻 旧 友
+output: 月 色 醉 新 春
+target: 秋 浦 拜 诗 翁
+Evaluate model. Step: 12000, score: 0.460751, loss: 50.744281
+Saving model. Step: 12100, loss: 50.927727
+******************************
+src: 交 柯 松 树 傲 腊 雪
+output: 入 水 桃 花 映 春 春
+target: 并 蒂 梅 花 报 新 春
+Saving model. Step: 12200, loss: 49.791895
+******************************
+src: 迎 春 花 走 俏
+output: 迎 日 燕 开 春
+target: 报 喜 鸟 呈 祥
+Saving model. Step: 12300, loss: 50.086214
+******************************
+src: 历 尽 秋 冬 霜 染 鬓
+output: 常 来 月 气 月 飞 心
+target: 经 穷 苦 难 皱 添 颜
+Saving model. Step: 12400, loss: 51.199873
+******************************
+src: 父 母 慈 怀 ， 甘 付 一 生 爱
+output: 人 人 大 己 ， 无 无 万 姓 功
+target: 儿 孙 孝 道 ， 喜 传 万 古 心
+Saving model. Step: 12500, loss: 50.788235
+******************************
+src: 雨 下 霖 霖 润 木 木
+output: 人 中 春 气 上 风 间
+target: 心 上 怂 怂 惊 人 人
+Saving model. Step: 12600, loss: 51.271057
+******************************
+src: 逸 人 旧 住 子 午 谷
+output: 小 气 常 来 天 子 人
+target: 诗 客 独 寻 丁 卯 桥
+Saving model. Step: 12700, loss: 50.401405
+******************************
+src: 治 国 安 邦 须 学 习
+output: 倡 民 有 国 不 精 心
+target: 以 人 为 本 应 成 行
+Saving model. Step: 12800, loss: 50.410851
+******************************
+src: 继 往 开 来 宗 马 列
+output: 为 心 不 古 马 龙 煌
+target: 承 前 启 后 铸 辉 煌
+Saving model. Step: 12900, loss: 50.283169
+******************************
+src: 反 清 倒 帝 ， 反 蒋 捐 躯 ， 惜 壮 志 未 酬 ， 八 桂 英 雄 遗 恨 永
+output: 开 道 为 心 ， 大 民 不 地 ， 一 方 人 而 展 ， 一 州 大 国 展 精 来
+target: 为 国 呕 心 ， 为 民 沥 血 ， 幸 小 康 已 达 ， 九 州 烈 士 慰 情 深
+Saving model. Step: 13000, loss: 50.808835
+******************************
+src: 故 地 故 人 稀 ， 明 月 多 情 如 故
+output: 新 山 明 雨 ， ， 清 山 不 处 我 来
+target: 春 天 春 色 美 ， 青 山 不 老 长 春
+====================
+src:竹 持 劲 节 仁 人 范
+output: 龙 打 清 风 醉 水 香
+target: 莲 秉 清 心 君 子 风
+====================
+src:岸 影 几 家 柳
+output: 风 光 一 径 花
+target: 莺 声 百 啭 歌
+Evaluate model. Step: 13000, score: 0.395283, loss: 50.808835
+Saving model. Step: 13100, loss: 49.620532
+******************************
+src: 掌 握 千 丝 ， 把 长 短 文 章 ， 从 头 做 起
+output: 心 开 万 里 ， 看 人 秋 水 月 ， 不 世 归 来
+target: 风 焗 万 彩 ， 将 春 秋 时 尚 ， 信 手 剪 来
+Saving model. Step: 13200, loss: 51.565072
+******************************
+src: 落 日
+output: 春 天
+target: 蛰 龙
+Saving model. Step: 13300, loss: 51.652142
+******************************
+src: 半 爪
+output: 一 天
+target: 一 鳞
+Saving model. Step: 13400, loss: 49.308405
+******************************
+src: 花 中 人 去 酒 犹 在
+output: 月 下 花 开 月 不 来
+target: 叶 上 露 涵 风 初 来
+Saving model. Step: 13500, loss: 50.931502
+******************************
+src: 彩 笔 喜 题 红 叶 句
+output: 春 山 共 见 紫 人 情
+target: 华 堂 欣 诵 爱 情 诗
+Saving model. Step: 13600, loss: 50.512690
+******************************
+src: 楼 头 偶 柱 看 山 笏
+output: 水 上 长 情 入 古 人
+target: 门 外 还 停 问 字 车
+Saving model. Step: 13700, loss: 49.254208
+******************************
+src: 月 夜 残
+output: 柳 深 寒
+target: 箫 声 咽
+Saving model. Step: 13800, loss: 51.512563
+******************************
+src: 惠 风 梳 绿 江 南 柳
+output: 玉 雨 催 来 柳 北 山
+target: 春 雨 润 红 塞 北 花
+Saving model. Step: 13900, loss: 50.284727
+******************************
+src: 流 年 逆 境 平 心 态
+output: 大 地 成 知 老 梦 心
+target: 大 道 不 空 觉 悟 通
+Saving model. Step: 14000, loss: 49.040781
+******************************
+src: 电 能 聚 热 气 满 腔 ， 将 粒 粒 艰 辛 ， 翻 为 珠 玉
+output: 人 有 有 人 秋 万 曲 ， 看 人 山 玉 彩 ， 看 在 青 花
+target: 秋 实 视 春 华 一 梦 ， 奉 莹 莹 造 化 ， 不 落 纤 毫
+====================
+src:循 声 救 苦 ， 洒 露 消 灾 ， 法 雨 济 苍 生 ， 南 海 非 遥 呈 宝 相
+output: 大 国 如 风 ， 春 风 吹 秀 ， 春 风 吹 秀 色 ， 南 山 一 片 壮 春 秋
+target: 诚 者 则 灵 ， 求 之 必 应 ， 佛 光 辉 大 地 ， 西 天 宛 在 见 慈 心
+====================
+src:飘 香 美 酒 ， 杯 杯 溢 小 康 喜 韵
+output: 迎 梦 春 风 ， 春 雨 迎 春 锦 绣 图
+target: 载 福 红 联 ， 副 副 写 盛 世 春 章
+====================
+src:终 一 统 河 山 ， 天 授 甲 图 铭 甲 意
+output: 一 千 年 国 界 ， 人 传 国 业 振 春 风
+target: 念 同 根 血 脉 ， 时 逢 申 岁 沸 申 江
+====================
+src:雄 文 直 道 ， 独 立 当 世
+output: 大 国 高 心 ， 不 是 人 人
+target: 余 烈 遗 风 ， 昭 显 千 秋
+====================
+src:塞 北 佳 人 思 柳 绿
+output: 山 边 紫 叶 映 花 红
+target: 江 南 才 子 盼 花 红
+====================
+src:阳 光 为 墨 天 作 纸 ， 描 中 华 美 景
+output: 春 雨 舞 春 风 、 歌 ， 看 旧 海 春 风
+target: 岁 月 似 弦 地 如 琴 ， 奏 盛 世 强 音
+====================
+src:江 天 暮 色 ， 一 晌 笙 歌 ， 梦 里 不 知 身 是 客
+output: 山 水 清 风 ， 一 分 春 雨 ， 人 生 不 是 梦 如 人
+target: 烟 水 春 花 ， 四 畴 馥 溢 ， 瑶 台 好 境 蝶 其 谁
+====================
+src:君 德 臣 贤 安 世 道
+output: 人 生 国 业 著 人 家
+target: 父 慈 子 孝 乐 天 伦
+====================
+src:没 穷 亲 友 往 来 ， 其 家 肯 定 势 利
+output: 有 世 世 人 生 ， 大 道 无 须 有 人 生
+target: 无 正 经 人 交 接 ， 这 个 必 是 奸 邪
+Evaluate model. Step: 14000, score: 0.424240, loss: 49.040781
+Saving model. Step: 14100, loss: 50.977309
+******************************
+src: 仁 雨 知 时 苏 万 物
+output: 清 风 入 道 誉 千 秋
+target: 和 风 识 路 入 千 家
+Saving model. Step: 14200, loss: 51.969096
+******************************
+src: 榭 台 寂 寂 ， 间 歇 鸟 叫 间 歇 雨
+output: 月 下 飞 来 ， 风 开 清 头 醉 落 风
+target: 庭 院 深 深 ， 断 续 虫 鸣 断 续 风
+Saving model. Step: 14300, loss: 50.316137
+******************************
+src: 光 前 已 振 家 声 久
+output: 笔 里 常 知 月 运 多
+target: 裕 后 还 留 世 泽 长
+Saving model. Step: 14400, loss: 50.590846
+******************************
+src: 三 千 亩 茶 山 ， 香 飘 梓 里 ， 勤 劳 致 富 ， 诗 歌 动 地
+output: 万 万 春 山 ， ， 风 歌 情 ， ， 人 润 春 声 ， 梦 韵 流 天
+target: 百 余 幅 史 画 ， 悠 久 良 乡 ， 叶 茂 根 深 ， 绿 水 涵 天
+Saving model. Step: 14500, loss: 48.507467
+******************************
+src: 到 庙 来 、 必 须 要 诸 恶 莫 作
+output: 无 官 不 、 无 、 、 、 无 无 之
+target: 回 家 去 、 更 应 该 众 善 奉 行
+Saving model. Step: 14600, loss: 48.454240
+******************************
+src: 琴 随 流 水 一 溪 韵
+output: 雨 照 红 阳 半 岸 香
+target: 雾 笼 苍 山 半 岭 云
+Saving model. Step: 14700, loss: 49.086421
+******************************
+src: 惹 上 相 思 无 处 躲
+output: 有 来 明 事 有 中 愁
+target: 看 来 自 断 有 时 难
+Saving model. Step: 14800, loss: 50.671455
+******************************
+src: 香 胜 香 肠 香
+output: 春 开 日 子 香
+target: 冰 比 冰 水 冰
+Saving model. Step: 14900, loss: 50.207231
+******************************
+src: 文 理 本 同 门 ， 不 料 分 家 成 陌 路
+output: 人 心 能 其 道 ， 常 将 世 士 是 人 天
+target: 减 科 是 妙 招 ， 可 期 强 国 出 新 人
+Saving model. Step: 15000, loss: 48.517052
+******************************
+src: 灯 前 自 绣 芙 蓉 带
+output: 月 下 长 知 天 水 花
+target: 花 底 休 倾 绿 玉 卮
+====================
+src:亭 下 纳 凉 ， 当 思 田 陌 农 人 苦
+output: 人 间 入 梦 ， 不 是 人 间 春 雨 多
+target: 席 间 把 盏 ， 应 憎 官 僚 蠹 鼠 贪
+====================
+src:锦 瑟 无 弦 惊 日 月
+output: 花 声 有 意 醉 春 风
+target: 铜 钱 有 脚 走 街 衢
+====================
+src:陈 仓 屯 满 齐 天 福
+output: 大 地 风 和 满 世 春
+target: 石 鼓 擂 开 遍 地 春
+====================
+src:梅 妆 已 旧 谁 人 赏
+output: 月 色 无 时 我 意 来
+target: 草 色 初 荣 游 客 欣
+====================
+src:太 空 漫 步 ， 神 州 九 万 里 灰 霾 ， 奔 来 眼 底
+output: 古 地 开 情 ， 一 脉 清 谐 风 雨 雨 ， 醉 梦 风 中
+target: 寰 宇 聚 焦 ， 极 地 千 平 方 臭 氧 ， 惊 醒 议 程
+====================
+src:庄 生 梦 蝶 知 无 我
+output: 明 月 清 风 醉 有 人
+target: 晏 子 分 桃 为 有 他
+====================
+src:旧 梦 寻 来 如 隔 世
+output: 新 风 不 是 有 成 人
+target: 青 春 远 去 不 回 头
+====================
+src:伤 春 蕉 客 卷 珠 泪
+output: 对 月 风 声 入 酒 声
+target: 苦 夏 闲 人 烹 酽 茶
+Evaluate model. Step: 15000, score: 0.450297, loss: 48.517052
+Saving model. Step: 15100, loss: 50.056205
+******************************
+src: 九 载 春 秋 扬 国 粹
+output: 一 年 春 气 建 民 门
+target: 百 年 辛 亥 废 皇 权
+Saving model. Step: 15200, loss: 49.572996
+******************************
+src: 良 马 终 将 腾 槽 枥
+output: 清 心 不 是 上 人 流
+target: 真 龙 自 可 聚 风 云
+Saving model. Step: 15300, loss: 49.237067
+******************************
+src: 风 在 枝 头 渲 染 绿
+output: 雨 开 花 里 共 开 红
+target: 燕 于 陌 上 剪 裁 春
+Saving model. Step: 15400, loss: 48.038765
+******************************
+src: 百 合 清 香 ， 百 姓 佳 肴 ， 团 珠 攒 玉 龙 牙 灿
+output: 一 生 盛 地 ， 千 民 大 气 ， 大 马 扬 歌 凤 业 扬
+target: 康 源 名 企 ， 康 翔 极 品 ， 载 誉 蜚 声 骏 业 兴
+Saving model. Step: 15500, loss: 49.590460
+******************************
+src: 美 酒 佳 肴 情 不 尽
+output: 清 山 雅 意 意 难 多
+target: 老 歌 新 赋 意 尤 长
+Saving model. Step: 15600, loss: 49.731426
+******************************
+src: 一 轩 雅 墨 随 君 品
+output: 几 目 清 花 入 梦 行
+target: 满 地 落 花 伴 雨 融
+Saving model. Step: 15700, loss: 50.191889
+******************************
+src: 英 雄 痛 洒 山 河 泪
+output: 明 子 长 开 天 道 心
+target: 儿 女 悲 吟 离 乱 歌
+Saving model. Step: 15800, loss: 49.743350
+******************************
+src: 夏 日 榴 花 红 热 闹
+output: 春 风 玉 叶 绿 红 红
+target: 冬 宵 竹 叶 绿 寒 喧
+Saving model. Step: 15900, loss: 51.079091
+******************************
+src: 米 酒 醉 心 ， 麻 糖 甜 梦 ， 十 二 五 图 铺 大 地
+output: 春 毫 献 墨 ， 画 上 开 声 ， 一 年 万 里 耀 新 年
+target: 羊 毫 泼 墨 ， 猴 棒 书 春 ， 百 千 万 众 创 新 天
+Saving model. Step: 16000, loss: 49.990027
+******************************
+src: 且 醉 今 朝 ， 壶 间 日 月 谁 同 尔
+output: 何 怜 世 处 ， 月 下 人 秋 我 可 然
+target: 休 闲 此 处 ， 笔 下 春 秋 我 共 君
+====================
+src:棒 打 浪 漫 鸟
+output: 花 开 月 落 花
+target: 歌 吟 情 思 缘
+====================
+src:九 曲 风 涛 喧 日 月
+output: 一 轮 秋 水 醉 春 秋
+target: 三 春 雨 露 润 山 川
+====================
+src:把 箸 当 知 ， 一 饭 一 茶 皆 是 道
+output: 听 心 无 处 ， 半 杯 无 处 可 无 眠
+target: 无 心 而 念 ， 累 生 累 劫 不 忘 恩
+====================
+src:闲 鸟 来 回 对
+output: 清 风 不 染 花
+target: 笨 牛 上 下 吹
+====================
+src:三 秋 绝 塞 奉 哀 音 ， 自 怜 絮 酒 生 刍 ， 道 远 无 方 能 缩 地
+output: 一 世 清 风 有 我 意 ， 看 此 时 流 水 水 ， 人 间 有 我 可 知 心
+target: 廿 载 离 群 怀 旧 好 ， 同 是 春 晖 寸 草 ， 年 来 有 恨 各 终 天
+====================
+src:三 洞 纷 呈 ， 成 大 观 方 添 气 韵
+output: 九 州 永 展 ， 开 来 大 业 展 春 光
+target: 九 流 兼 纳 ， 汇 沧 海 以 壮 波 涛
+====================
+src:美 德 如 珠 灿
+output: 新 心 似 水 香
+target: 虚 名 似 雾 飘
+====================
+src:天 涯 苦 远 ， 讯 信 迷 茫 ， 唯 凭 一 纸 传 吟 ， 纵 有 相 思 难 会 见
+output: 月 里 流 流 ， 诗 怀 无 限 ， 看 我 无 知 无 限 ， 无 妨 无 处 可 伤 来
+target: 雅 座 逢 缘 ， 人 情 淡 薄 ， 独 具 千 般 才 智 ， 何 因 惜 玉 又 怜 香
+====================
+src:郭
+output: 倪
+target: 村
+====================
+src:门 外 桃 花 自 开 落
+output: 山 中 秋 水 自 知 情
+target: 楼 上 烟 云 怪 不 来
+====================
+src:背 倚 九 华 山 ， 荔 涵 通 广 宇 ， 名 师 靓 校 传 百 载
+output: 文 明 千 年 国 ， 九 域 ， 文 明 ， 大 业 宏 图 耀 九 州
+target: 胸 怀 千 里 志 ， 哲 理 寓 玄 机 ， 碧 血 丹 心 创 一 流
+====================
+src:今 日 得 闲 聊 几 句
+output: 小 时 无 处 醉 千 年
+target: 明 朝 来 事 干 三 天
+====================
+src:烟 花 落 尽 浮 华 梦
+output: 竹 影 飘 开 落 水 香
+target: 燕 子 归 来 故 里 情
+====================
+src:池 苑 依 然 ， 独 不 见 人 面 桃 花 交 相 映
+output: 山 山 不 在 ， 何 妨 人 事 人 人 老 我 无 眠
+target: 武 陵 仍 旧 ， 君 应 知 石 碑 白 字 立 待 陈
+Evaluate model. Step: 16000, score: 0.547279, loss: 49.990027
+Saving model. Step: 16100, loss: 49.148001
+******************************
+src: 青 春 有 梦
+output: 绿 子 无 春
+target: 学 校 是 家
+Saving model. Step: 16200, loss: 48.553843
+******************************
+src: 秦 有 春 秋 ， 上 下 两 部
+output: 人 无 大 月 ， 一 坤 千 春
+target: 明 空 日 月 ， 乾 坤 同 天
+Saving model. Step: 16300, loss: 50.529773
+******************************
+src: 用 人 不 避 仇 ， 但 知 仁 士 皆 崇 敬
+output: 有 国 能 能 道 ， 不 能 人 今 不 不 行
+target: 治 国 须 行 俭 ， 自 有 古 贤 能 效 尤
+Saving model. Step: 16400, loss: 50.218327
+******************************
+src: 窗 外 山 花 堪 养 目
+output: 山 中 风 月 总 思 心
+target: 杯 中 水 酒 可 销 魂
+Saving model. Step: 16500, loss: 48.222016
+******************************
+src: 老 来 此 院 人 难 老
+output: 不 有 清 风 月 自 深
+target: 长 沐 春 风 寿 更 长
+Saving model. Step: 16600, loss: 50.258664
+******************************
+src: 锦 裘 不 敌 深 秋 雨
+output: 老 柳 犹 开 大 月 风
+target: 翠 竹 犹 娇 初 夜 霜
+Saving model. Step: 16700, loss: 50.061281
+******************************
+src: 新 晴 看 蛱 蝶
+output: 老 雨 醉 春 蓉
+target: 骤 雨 闹 芭 蕉
+Saving model. Step: 16800, loss: 49.117285
+******************************
+src: 常 觉 此 身 非 我 有
+output: 何 将 无 世 是 君 来
+target: 每 思 异 日 驭 风 行
+Saving model. Step: 16900, loss: 50.067668
+******************************
+src: 铜 人 传 世 杏 林 福
+output: 玉 子 扬 民 天 世 威
+target: 金 佛 显 灵 凡 界 钦
+Saving model. Step: 17000, loss: 49.227195
+******************************
+src: 鱼 婢
+output: 莺 头
+target: 虾 姑
+====================
+src:深 树 影 中 鸦 渐 住
+output: 闲 时 花 里 月 犹 圆
+target: 流 泉 石 上 日 初 斜
+====================
+src:大 早 赶 集 图 早 利
+output: 新 年 不 计 乐 中 华
+target: 阳 春 开 市 沐 春 风
+====================
+src:小 苑 花 香 开 玉 景
+output: 春 风 柳 色 舞 春 风
+target: 芳 庭 春 秀 耀 明 霞
+====================
+src:上 下 而 求 索 ， 原 只 为 苍 生 社 稷
+output: 中 原 不 老 ， 不 忘 无 世 、 大 人 人
+target: 高 低 兮 唱 吟 ， 却 长 留 青 史 人 间
+====================
+src:莫 轻 妇 女 ， 无 女 怎 生 新 世 界
+output: 不 有 人 间 ， 有 人 不 有 老 人 心
+target: 切 重 儿 童 ， 有 童 何 惧 老 天 年
+====================
+src:春 心 已 破 ， 墨 色 犹 香 ， 忍 令 淡 烟 吹 寒 露
+output: 明 月 犹 开 ， 春 风 不 远 ， 更 知 天 地 醉 清 风
+target: 雁 信 难 收 ， 婵 娟 易 悔 ， 空 留 明 月 向 中 秋
+====================
+src:千 家 饺 子 ， 包 满 团 圆 包 满 梦
+output: 万 里 春 风 ， 春 吹 万 里 梦 千 年
+target: 一 副 楹 联 ， 贴 红 函 谷 贴 红 春
+====================
+src:度 清 宵 ， 醉 清 秋 ， 弄 清 影 ， 看 芳 桂 波 娑 ， 无 数 浮 云 皆 过 眼
+output: 看 春 色 ， 听 春 雨 ， 听 春 风 ， 听 春 风 寂 寞 ， 何 知 故 事 不 留 魂
+target: 澄 玉 宇 ， 凝 玉 露 ， 转 玉 盘 ， 对 霜 天 廖 廓 ， 几 回 明 月 正 当 头
+Evaluate model. Step: 17000, score: 0.501732, loss: 49.227195
+Saving model. Step: 17100, loss: 50.099326
+******************************
+src: 荷 风 淡 淡 ， 荷 叶 田 田 ， 荷 韵 翩 翩 ， 更 有 荷 塘 月 色 撩 人 醉
+output: 竹 影 还 飞 ， 风 叶 飞 影 ， 风 影 飞 醉 ， 且 把 春 花 风 声 醉 水 情
+target: 竹 影 亭 亭 ， 竹 林 井 井 ， 竹 楼 静 静 ， 犹 将 竹 海 蝉 声 伴 我 眠
+Saving model. Step: 17200, loss: 48.096690
+******************************
+src: 苦 海 无 边 挟 酒 渡
+output: 清 山 有 意 是 花 头
+target: 天 堂 有 路 带 钱 来
+Saving model. Step: 17300, loss: 48.130571
+******************************
+src: 聚 首 一 堂 ， 杨 柳 东 风 初 识 面
+output: 登 心 一 里 ， 天 花 月 雨 总 开 头
+target: 垂 丝 万 缕 ， 杏 花 春 雨 喜 弹 冠
+Saving model. Step: 17400, loss: 49.088362
+******************************
+src: 骑 马 将 军 夺 帅 士
+output: 行 云 打 子 出 人 人
+target: 带 兵 司 令 战 师 团
+Saving model. Step: 17500, loss: 49.213090
+******************************
+src: 窗 外 梅 花 横 瘦 影
+output: 窗 中 柳 絮 醉 清 春
+target: 门 前 柳 树 绽 新 芽
+Saving model. Step: 17600, loss: 49.251726
+******************************
+src: 夜 静 风 轻 ， 梨 花 院 落 溶 溶 月
+output: 春 浓 月 远 ， 柳 色 春 头 醉 晚 花
+target: 烛 残 梦 杳 ， 春 雨 楼 台 剪 剪 寒
+Saving model. Step: 17700, loss: 50.317591
+******************************
+src: 举 头 已 觉 千 山 绿
+output: 对 水 难 无 万 袖 红
+target: 照 眼 全 无 一 点 尘
+Saving model. Step: 17800, loss: 49.531110
+******************************
+src: 雷 锋 凡 事 千 秋 颂
+output: 风 会 春 风 一 域 图
+target: 社 会 新 风 九 域 传
+Saving model. Step: 17900, loss: 48.261922
+******************************
+src: 运 动 罗 汉 入 禅 ， 出 手 金 刚 护 法 ， 阵 阵 拳 风 ， 犹 带 菩 提 枝 上 叶
+output: 人 有 清 花 有 道 ， 看 人 风 大 上 ， ， 长 茏 翠 北 ， 何 将 天 世 世 中 人
+target: 蓄 势 莲 山 养 气 ， 得 威 东 海 来 涛 ， 葱 葱 南 国 ， 更 生 绝 技 掌 中 春
+Saving model. Step: 18000, loss: 47.944171
+******************************
+src: 一 人 一 把 刀 ， 愿 意 尝 鲜 请 下 手
+output: 几 子 无 生 后 ， 人 才 无 点 自 中 心
+target: 众 口 众 生 相 ， 鸿 门 摆 酒 要 当 心
+====================
+src:四 宝 汇 文 房 ， 纸 笔 墨 砚
+output: 三 旬 传 国 粹 ， 国 业 文 章
+target: 历 朝 归 史 册 ， 金 元 明 清
+====================
+src:墨 润 晨 曦 ， 泉 声 漱 石 空 山 静
+output: 风 凝 月 影 ， 月 影 清 风 碧 水 长
+target: 意 融 松 壑 ， 岚 气 吐 清 妙 境 开
+====================
+src:一 杯 在 手 品 清 淡
+output: 无 语 无 言 恨 自 多
+target: 双 月 映 湖 醉 瑟 琴
+====================
+src:高 人 往 往 行 低 调
+output: 小 海 清 风 入 旧 人
+target: 俗 辈 常 常 做 佞 臣
+====================
+src:问 松 间 明 月 ， 石 上 清 泉 ， 谁 荡 渔 舟 归 浣 女
+output: 看 月 下 风 霞 ， 风 流 柳 岸 ， 我 将 月 影 醉 清 风
+target: 答 河 底 流 云 ， 岸 边 枯 草 ， 我 吹 横 笛 唤 离 人
+====================
+src:紫 气 蒸 茶 山 ， 芽 鲜 叶 秀
+output: 青 风 凝 玉 马 ， 月 照 龙 飞
+target: 清 泉 润 竹 海 ， 笋 嫩 篁 幽
+====================
+src:两 会 重 民 生 ， 住 房 医 改 成 焦 点
+output: 一 身 无 国 事 ， 倡 政 无 私 是 国 生
+target: 三 春 飞 捷 报 ， 塞 北 江 南 漾 福 音
+====================
+src:好 人 行 厚 道
+output: 小 世 是 新 人
+target: 善 马 总 宽 容
+====================
+src:青 峰 一 笠 斜 阳 远
+output: 碧 海 千 秋 绿 月 长
+target: 绿 水 千 山 古 道 长
+Evaluate model. Step: 18000, score: 0.462642, loss: 47.944171
+Saving model. Step: 18100, loss: 49.846734
+******************************
+src: 相 顾 无 言 唯 执 手
+output: 不 求 无 欲 不 知 心
+target: 何 如 不 见 免 伤 秋
+Saving model. Step: 18200, loss: 49.144933
+******************************
+src: 放 不 开 眼 底 乾 坤 ， 何 必 登 斯 楼 把 酒
+output: 看 以 此 我 怀 梦 水 ， 不 如 无 我 子 如 诗
+target: 吞 得 尽 胸 中 云 梦 ， 方 可 对 仙 人 吟 诗
+Saving model. Step: 18300, loss: 47.304404
+******************************
+src: 远 岫 流 云 融 月 色
+output: 清 花 落 水 醉 春 仙
+target: 烟 霞 洞 府 卧 神 仙
+Saving model. Step: 18400, loss: 48.500720
+******************************
+src: 小 楼 幽 径 绕 香 风 ， 青 草 阶 前 、 红 花 窗 外
+output: 碧 水 青 烟 流 绿 雨 ， 绿 云 、 水 、 绿 月 云 中
+target: 寒 舍 疏 篱 凝 晓 色 ， 白 云 山 上 、 淡 月 庭 中
+Saving model. Step: 18500, loss: 48.130725
+******************************
+src: 黄 风 黑 水 三 千 里
+output: 白 色 青 花 第 一 年
+target: 梦 断 香 销 四 十 年
+Saving model. Step: 18600, loss: 50.196005
+******************************
+src: 交 以 诚 、 接 以 礼 ， 一 团 和 气
+output: 为 无 、 、 、 人 心 ， 一 海 清 风
+target: 近 者 悦 、 远 者 来 ， 四 海 春 风
+Saving model. Step: 18700, loss: 48.540299
+******************************
+src: 又 见 村 中 子 孙 树
+output: 不 知 人 上 世 子 风
+target: 才 藏 口 内 义 和 团
+Saving model. Step: 18800, loss: 48.554213
+******************************
+src: 悖 礼
+output: 修 心
+target: 诲 淫
+Saving model. Step: 18900, loss: 48.885025
+******************************
+src: 一 两 春 风 缠 树 上
+output: 千 秋 锦 酒 伴 天 中
+target: 千 觞 美 酒 酹 诗 间
+Saving model. Step: 19000, loss: 48.238939
+******************************
+src: 人 没 做 对 生 遗 憾
+output: 心 不 无 心 作 俗 心
+target: 客 串 通 联 聚 友 情
+====================
+src:香 风 醉 倒 花 边 客
+output: 明 月 流 开 月 里 人
+target: 倩 影 迷 痴 柳 下 翁
+====================
+src:须 知 此 事 堪 为 镜
+output: 不 可 无 言 不 作 心
+target: 莫 向 深 云 独 闭 门
+====================
+src:测 地 量 天 ， 大 业 蒸 云 ， 精 细 于 心 酬 远 梦
+output: 开 心 作 意 ， 和 谐 乐 梦 ， 和 谐 万 里 壮 新 图
+target: 追 星 赶 月 ， 英 才 纵 马 ， 辉 煌 在 抱 蔚 奇 观
+====================
+src:四 宝 汇 文 房 ， 纸 笔 墨 砚
+output: 一 生 开 盛 世 ， 人 间 春 秋
+target: 历 朝 归 史 册 ， 金 元 明 清
+====================
+src:沃 野 千 里
+output: 清 风 五 更
+target: 山 河 一 新
+====================
+src:雨 余 风 淡 淡
+output: 月 暖 月 难 圆
+target: 云 散 月 团 团
+====================
+src:未 必 经 霜 皆 出 色
+output: 不 知 明 月 不 成 心
+target: 无 须 落 月 亦 伤 神
+====================
+src:胸 怀 正 气 千 里 志
+output: 心 乐 和 谐 万 里 春
+target: 脚 踏 清 风 万 重 山
+====================
+src:须 长 胡 一 刀
+output: 不 能 不 二 分
+target: 风 入 林 则 徐
+====================
+src:大 运 宏 开 辉 日 月
+output: 新 春 喜 绘 壮 乾 坤
+target: 长 兴 伟 业 壮 乾 坤
+====================
+src:风 卷 桃 花 雨
+output: 月 明 柳 色 花
+target: 眼 舒 柳 叶 眉
+Evaluate model. Step: 19000, score: 0.637295, loss: 48.238939
+Saving model. Step: 19100, loss: 48.281799
+******************************
+src: 莺 声 落 满 春 枝 上
+output: 柳 舞 飞 悠 碧 水 中
+target: 燕 影 悠 然 绿 水 中
+Saving model. Step: 19200, loss: 48.063741
+******************************
+src: 三 月 桃 花 又 遇 春
+output: 一 原 岁 气 自 来 春
+target: 中 秋 粉 藕 当 迎 节
+Saving model. Step: 19300, loss: 47.706384
+******************************
+src: 日 日 相 思 言 不 尽
+output: 春 人 不 念 意 难 穷
+target: 官 官 互 惠 利 无 穷
+Saving model. Step: 19400, loss: 48.373694
+******************************
+src: 秋 色 斑 斓 ， 曾 与 同 描 七 彩 梦
+output: 春 龙 浩 舞 ， 更 知 共 上 一 春 心
+target: 金 风 萧 瑟 ， 难 能 洒 脱 数 行 书
+Saving model. Step: 19500, loss: 48.411992
+******************************
+src: 海 山 名 胜 今 犹 古
+output: 天 海 人 生 大 后 春
+target: 隆 福 门 庭 旧 转 新
+Saving model. Step: 19600, loss: 49.413237
+******************************
+src: 赓 宗 坤 道 ， 教 子 相 夫 ， 理 想 非 唯 一 牖 梦
+output: 对 凤 人 声 ， 心 红 叠 月 ， 人 中 无 几 几 湖 心
+target: 抖 我 星 旌 ， 拿 云 揽 月 ， 胸 襟 远 过 半 边 天
+Saving model. Step: 19700, loss: 49.106374
+******************************
+src: 鸟 度 清 声 ， 鱼 惊 帆 影
+output: 花 鸣 大 夏 ， 月 舞 龙 花
+target: 龙 翔 瀚 海 ， 凤 占 梧 枝
+Saving model. Step: 19800, loss: 47.043073
+******************************
+src: 心 花 怒 放 和 谐 景
+output: 联 雨 催 穷 幸 展 情
+target: 春 色 无 边 快 乐 年
+Saving model. Step: 19900, loss: 47.963654
+******************************
+src: 一 条 水 道 连 云 贵
+output: 一 里 风 光 入 月 今
+target: 十 里 溪 声 贯 古 今
+Saving model. Step: 20000, loss: 48.916136
+******************************
+src: 栽 花 种 草 陪 春 住
+output: 把 马 无 花 任 梦 来
+target: 侔 色 揣 称 追 梦 还
+====================
+src:冬 去 春 来 ， 几 树 梅 花 陪 我 老
+output: 月 寒 水 远 ， 一 杯 秋 雨 伴 人 生
+target: 莺 飞 草 长 ， 一 枝 红 杏 为 谁 开
+====================
+src:程 气 争 雄 添 锦 绣
+output: 春 风 入 梦 展 宏 图
+target: 惊 魂 对 垒 竞 芳 菲
+====================
+src:点 点 相 思 浮 逝 水
+output: 清 风 寂 寞 醉 回 天
+target: 时 时 悬 念 寄 轻 烟
+====================
+src:云 藏 空 岫 厌 天 阔
+output: 水 落 清 风 入 梦 长
+target: 霞 落 清 波 喜 海 平
+====================
+src:凉 意 生 竹 树
+output: 清 风 入 月 花
+target: 疏 雨 滴 梧 桐
+====================
+src:言 入 资 兴 多 赞 美
+output: 梦 怀 人 世 总 成 真
+target: 文 扬 睿 武 少 纷 争
+====================
+src:蝶 衣 带 露 恋 花 泪
+output: 柳 叶 吟 风 伴 月 光
+target: 马 甲 上 坛 联 句 心
+====================
+src:雷 鸣 一 声 ， 惊 醒 世 间 名 利 客
+output: 心 怀 万 里 ， 纵 将 天 下 大 今 人
+target: 音 闪 万 里 ， 指 点 苦 海 梦 迷 人
+====================
+src:钟 祥 毓 秀 ， 家 家 护 境 如 身 ， 生 态 境 长 洁 且 美
+output: 大 业 兴 邦 ， 民 生 兴 兴 旺 庆 ， 民 生 民 安 喜 更 新
+target: 播 爱 扬 慈 ， 处 处 与 人 为 友 ， 道 德 人 自 寿 而 康
+====================
+src:倚 天 剑 舞 ， 警 世 钟 鸣 ， 治 标 治 本 乾 坤 净
+output: 立 国 文 明 ， 兴 邦 兴 业 ， 创 业 兴 邦 国 梦 新
+target: 定 海 针 擎 ， 进 军 号 响 ， 除 恶 除 魔 日 月 新
+====================
+src:云 似 粉
+output: 水 如 云
+target: 水 如 蓝
+====================
+src:好 梦 方 圆 ， 旗 开 得 胜 千 秋 业
+output: 新 风 普 照 ， 梦 想 千 秋 万 里 春
+target: 宏 途 正 畅 ， 马 到 成 功 万 户 春
+====================
+src:平 安 劳 传 报
+output: 大 德 大 兴 邦
+target: 消 息 借 流 通
+Evaluate model. Step: 20000, score: 0.649144, loss: 48.916136
+Saving model. Step: 20100, loss: 48.269948
+******************************
+src: 祥 麟 彩 凤 优 生 贵
+output: 大 月 清 情 报 子 真
+target: 活 兔 真 龙 教 为 先
+Saving model. Step: 20200, loss: 48.706753
+******************************
+src: 胸 中 丘 壑 起 风 色
+output: 眼 里 春 坤 入 意 香
+target: 袖 里 乾 坤 有 水 平
+Saving model. Step: 20300, loss: 48.436138
+******************************
+src: 黄 河 九 曲 ， 捧 一 轮 红 日
+output: 绿 子 千 方 ， 看 万 里 红 云
+target: 道 德 五 千 ， 生 万 朵 白 云
+Saving model. Step: 20400, loss: 48.854473
+******************************
+src: 和 堂 雅 韵 ， 朝 迎 旭 日 金 莺 啭
+output: 大 岭 飞 风 ， 喜 送 春 云 绿 凤 飞
+target: 檀 案 珍 藏 ， 夜 耀 冰 蟾 玉 兔 觑
+Saving model. Step: 20500, loss: 47.823621
+******************************
+src: 印 岂 无 原 ？ 读 书 坐 风 而 晦 明 ， 数 布 衣 曾 开 浙 派
+output: 心 观 有 在 ， 人 我 有 有 人 为 下 ， 一 方 天 子 有 人 涯
+target: 社 何 敢 长 ？ 识 字 仅 鼎 彝 瓴 辟 ， 一 耕 夫 来 自 田 间
+Saving model. Step: 20600, loss: 47.761870
+******************************
+src: 纳 米
+output: 开 头
+target: 吸 金
+Saving model. Step: 20700, loss: 47.830741
+******************************
+src: 梅 主 登 基 ， 传 旨 召 回 春 万 里
+output: 龙 城 焕 力 ， 和 龙 共 玉 福 千 家
+target: 天 孙 奉 命 ， 弄 梭 织 就 锦 千 机
+Saving model. Step: 20800, loss: 48.801521
+******************************
+src: 何 方 仙 女 ， 轻 抛 网 络 两 行 籽 ， 竟 散 叶 开 花 ， 满 屏 斗 艳 十 三 季
+output: 不 处 春 情 ， 喜 看 清 心 有 里 ， ， 喜 来 天 玉 梦 ， 一 手 清 声 第 一 楼
+target: 几 许 痴 儿 ， 共 结 联 坛 万 里 缘 ， 争 连 珠 合 璧 ， 妙 语 生 风 第 一 都
+Saving model. Step: 20900, loss: 46.831412
+******************************
+src: 饮 鸩 无 言 ， 式 闾 无 私 ， 所 天 无 恨
+output: 有 山 有 老 ， 有 人 有 老 ， 有 地 有 知
+target: 崧 梁 不 圯 ， 茹 澧 不 竭 ， 此 石 不 磨
+Saving model. Step: 21000, loss: 49.394914
+******************************
+src: 航 启 南 湖 ， 星 辉 北 斗 ， 引 百 族 拨 开 理 想 云 天 ， 旗 帜 彤 彤 肩 重 任
+output: 心 怀 北 海 ， 人 满 开 康 ， 喜 万 百 百 ， 中 福 中 地 ， 天 鹏 壮 起 水 中 春
+target: 情 牵 大 众 ， 梦 寐 小 康 ， 为 群 黎 拉 动 幸 福 指 数 ， 锤 镰 闪 闪 拓 新 程
+====================
+src:新 月 如 新 月 ， 志 摩 志 摩 天 ， 诗 似 清 风 ， 徐 徐 生 腕 底
+output: 清 风 拂 碧 河 ， 听 此 水 如 云 ， 如 来 如 月 ， 如 此 醉 天 中
+target: 青 年 类 青 年 ， 独 秀 独 秀 岭 ， 文 同 长 剑 ， 阵 阵 破 夜 空
+====================
+src:大 地 春 如 醉
+output: 新 年 梦 自 圆
+target: 小 康 梦 正 酣
+====================
+src:先 传 春 信 ， 一 树 春 花 香 腊 月
+output: 喜 展 新 歌 ， 千 秋 锦 绣 醉 春 风
+target: 老 打 白 条 ， 百 张 白 纸 欠 连 年
+====================
+src:花 鼓 催 春 民 共 乐
+output: 龙 毫 焕 彩 梦 常 新
+target: 墨 联 贺 喜 岁 同 香
+====================
+src:梅 妆 已 旧 谁 人 赏
+output: 月 色 无 边 我 意 来
+target: 草 色 初 荣 游 客 欣
+====================
+src:国 宝 三 希 两 地 藏 ， 云 烟 共 养 ， 弟 兄 共 赏
+output: 人 生 一 片 一 生 情 ， 人 代 一 行 ， 古 海 长 来
+target: 文 珍 四 库 双 宫 奉 ， 霞 霭 同 生 ， 骨 肉 同 兴
+====================
+src:无 穷 世 路 ， 人 间 有 幸 拾 一 二
+output: 不 负 人 间 ， 人 间 无 限 几 千 秋
+target: 浩 瀚 星 河 ， 天 宇 不 才 生 万 千
+====================
+src:四 面 楚 歌 ， 碧 血 千 秋 美 人 一 剑
+output: 千 秋 伟 业 ， 赤 县 千 秋 志 万 千 年
+target: 九 天 秦 月 ， 长 征 万 里 壮 士 孤 魂
+====================
+src:集 里 桥 边 ， 长 兴 骏 业
+output: 联 中 天 外 ， 共 展 春 光
+target: 道 吾 山 下 ， 大 展 鸿 图
+====================
+src:放 眼 湖 山 ， 满 楼 绮 丽 游 人 醉
+output: 吟 诗 诗 意 ， 一 曲 清 风 入 梦 香
+target: 纵 情 风 月 ， 四 季 清 幽 入 梦 香
+Evaluate model. Step: 21000, score: 0.581176, loss: 49.394914
+Saving model. Step: 21100, loss: 47.731609
+******************************
+src: 把 酒 庆 丰 功 ， 真 改 革 可 歌 ， 腾 飞 可 望
+output: 联 山 开 国 志 ， 喜 气 来 不 手 ， 喜 乐 不 来
+target: 冲 天 抒 壮 志 ， 喜 长 缨 在 手 ， 成 竹 在 胸
+Saving model. Step: 21200, loss: 47.507330
+******************************
+src: 柳 绊 春 风 得 意 步
+output: 花 歌 柳 水 伴 诗 头
+target: 莺 啼 溪 水 快 活 歌
+Saving model. Step: 21300, loss: 48.214571
+******************************
+src: 劈 柴 务 必 先 磨 斧
+output: 立 虎 无 将 不 是 牛
+target: 斩 草 应 须 早 断 根
+Saving model. Step: 21400, loss: 47.704392
+******************************
+src: 圆 梦 续 书 廉 信 史
+output: 大 兴 无 爱 国 威 图
+target: 复 兴 同 绘 凤 城 春
+Saving model. Step: 21500, loss: 47.612228
+******************************
+src: 巧 取 身 姿 肖 像 美
+output: 闲 将 天 地 水 中 香
+target: 又 依 胜 景 面 容 新
+Saving model. Step: 21600, loss: 48.146270
+******************************
+src: 望 远 登 高 ， 开 怀 碧 海 生 新 意
+output: 迎 毫 展 墨 ， 喜 放 神 山 醉 大 程
+target: 挥 毫 泼 墨 ， 放 眼 青 山 书 锦 篇
+Saving model. Step: 21700, loss: 46.568394
+******************************
+src: 开 光 奉 读 朝 玉 像
+output: 举 岁 飞 锦 壮 文 魂
+target: 迎 鸾 接 驾 复 金 身
+Saving model. Step: 21800, loss: 47.776122
+******************************
+src: 化 雨 总 播 爱 ， 英 才 若 笋
+output: 如 风 不 入 意 ， 人 景 如 山
+target: 春 风 常 寓 情 ， 秀 木 成 林
+Saving model. Step: 21900, loss: 47.963135
+******************************
+src: 二 十 年 ， 中 国 楹 联 报
+output: 九 千 世 ， 中 神 国 国 歌
+target: 万 千 人 ， 精 神 伊 甸 园
