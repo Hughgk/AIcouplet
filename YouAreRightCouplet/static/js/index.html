@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>您说的都对</title>
+    <link rel="stylesheet" type="text/css" href="../../static/css/styles.css">
+
+
+</head>
+<body>
+
+<div class="header" align="center">
+    <h1 class="title">人工智能对对联系统</h1>
+
+    <input id="mycouplet" name="mycouplet" type="text"  maxlength="10" class="posleft" >
+
+    <input class="submit"  id="submit" type="submit" value="生 成 下 联" >
+</div>
+
+<div id="container"  class="container">
+    <div class="left">
+        <p>上联</p>
+        <div class="table_div" align="center">
+            <table id="up">
+                <tbody id="uptext">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="spand">
+
+    </div>
+
+    <div class="middle">
+        <p>下联</p>
+        <div class="table_div" align="center">
+            <table id="down">
+                <tbody id="downtext">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="right" align="center">
+        <p>历史记录</p>
+
+        <div class="result" id="result">
+
+        </div>
+
+
+    </div>
+</div>
+
+
+    <script src="../../static/js/jquery-2.2.4.min.js"></script>
+    <script src="../../static/js/Ajaxs.js"></script>
+</body>
+</html>
